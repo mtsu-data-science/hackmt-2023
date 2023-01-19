@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hackmt-2023"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Antonison <adantonison@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+praw = "7.6.1"
+pandas = "1.5.2"
+jupyter = "1.0.0"
+notebook = "6.5.2"
+python-dotenv = "0.21.0"
+streamlit = "^1.17.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "6.20.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
