@@ -6,6 +6,8 @@
 
 Create a GitHub Account if you do not already have one and install [GitHub Desktop Client](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop). This will provide a simple way of getting files from and pushing files to GitHub.
 
+Please message Alex Antonison on Discord or e-mail Alex Antonison (Alex.Antonison@mtsu.edu) with your GitHub Username to be given permission to work with the project.
+
 ### Python Environment
 
 Set up environment using python 3.10
