@@ -1,0 +1,50 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"Weekly r/Tattoos Question/FreeTalk Thread! - January 28, 2023",,1.0,0.0,,,"***It's question time!***
+
+------------------------------------------------
+
+
+
+Part of our subreddit's recent transformation includes a new weekly discussion thread! Ask any question you'd like, and people from our community will give you their most honest opinions/answers. Please remember that most usual rules apply.
+
+
+
+Important rules:
+
+------------------------------------------------
+
+
+
+* No **aftercare/medical questions/advice**
+
+* No **pricing questions/advice**
+
+* Please be kind to your fellow tattoo-lovers, and follow [reddiquette](
+
+
+
+Some examples of things to ask the community about:
+
+------------------------------------------------
+
+
+
+* Tattoo placement
+
+* Skin tone
+
+* Tattoo subject/style/design
+
+* Recommended tattoo artists in your area
+
+* Pain
+
+* *Anything else you'd like!*
+
+
+
+If you're asking about your tattoo, please provide an image of the stencil or final tattoo, rather than elaborately describing it in a paragraph. Also, remember that unless a user has a verified flair, their advice *may not* be coming from a history of tattooing.","[[{'label': 'NEU', 'score': 0.9806303381919861}, {'label': 'POS', 'score': 0.016367865726351738}, {'label': 'NEG', 'score': 0.0030018030665814877}]]","[[{'label': 'NEU', 'score': 0.6391780972480774}, {'label': 'NEG', 'score': 0.3530687689781189}, {'label': 'POS', 'score': 0.007753107696771622}]]"
+Solar system with planets I visited in color (TBU) - Bloodline tattoo - Israel,,2592.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9569931626319885}, {'label': 'POS', 'score': 0.04125000908970833}, {'label': 'NEG', 'score': 0.0017567670438438654}]]",
+"The Yasssssquatch by Nautilus at Blackfriars Tattoo, Hereford UK",,1668.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.856329083442688}, {'label': 'POS', 'score': 0.14220044016838074}, {'label': 'NEG', 'score': 0.001470484770834446}]]",
+"In love with my rococo-style dagger. done by luzi from tattoolosnachos, germany",,751.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9903761744499207}, {'label': 'NEU', 'score': 0.008584316819906235}, {'label': 'NEG', 'score': 0.0010395604185760021}]]",
+Thigh dragon done by Geoff at Hole in the Sky. New Jersey USA,,113.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9767327904701233}, {'label': 'POS', 'score': 0.020804397761821747}, {'label': 'NEG', 'score': 0.0024628310929983854}]]",

@@ -1,0 +1,36 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Reposts...,,7244.0,0.0,,,"r/Jokes has a search feature, input the title or punchline of your joke (before posting) and if it's been posted within the last month - please don't submit it.","[[{'label': 'NEU', 'score': 0.978970468044281}, {'label': 'POS', 'score': 0.017690367996692657}, {'label': 'NEG', 'score': 0.003339167684316635}]]","[[{'label': 'NEU', 'score': 0.9721422791481018}, {'label': 'POS', 'score': 0.02397599257528782}, {'label': 'NEG', 'score': 0.0038816495798528194}]]"
+"Let's discuss spam, spammers, and the spamming spammers who spam.",,1205.0,0.0,,,"What did the moderator say to the subscribers?
+
+Nobody knows, because nobody ever reads what moderators write.
+
+------
+
+Yes, it was a bad joke, but at least it wasn't a repost... which is *kind of* what we're here to discuss today:
+
+As many of you are no doubt aware, spammers and bad actors have been flooding Reddit lately, and /r/Jokes has started to get hit pretty hard. Dealing with the issue isn't as easy as it sounds, though, because any action that we take has the potential to affect good-faith users. Still, we've been discussing the problem, and we've come up with the beginnings of a solution: 
+
+We're going to ban every last one of our subscribers.
+
+Just kidding! In fact, we're going to give you a bit more insight into how spammers work, what their goals are, and why they're so effective on Reddit. This information will be included on [our complete rules page]( which we've also streamlined and updated. (The rules themselves haven't changed; we've just made them a bit clearer and more condensed.) Our hope is that you'll be able to recognize and report spammers when you see them, which will help us keep them from gaining more of a foothold here.
+
+We'll be taking some other anti-spam actions behind the scenes, so rest assured, we aren't trying to dump the spam-fighting on you. We just figured that it was better to keep everyone informed... because after all, /r/Jokes is a community, and a community is only as smart as its dumbest member.
+
+(Yes, the moderators count as members, and yes, we're easily the dumbest.)
+
+Thank you for reading, and remember to report spam when you see it!","[[{'label': 'NEG', 'score': 0.9794145226478577}, {'label': 'NEU', 'score': 0.017155708745121956}, {'label': 'POS', 'score': 0.003429792355746031}]]","[[{'label': 'NEG', 'score': 0.7013620734214783}, {'label': 'NEU', 'score': 0.2932083010673523}, {'label': 'POS', 'score': 0.005429643671959639}]]"
+What did one lesbian vampire say to the other lesbian vampire?,,5191.0,0.0,,,See you next month.,"[[{'label': 'NEU', 'score': 0.9722439050674438}, {'label': 'NEG', 'score': 0.018090542405843735}, {'label': 'POS', 'score': 0.009665518067777157}]]","[[{'label': 'NEU', 'score': 0.6262252330780029}, {'label': 'POS', 'score': 0.37253257632255554}, {'label': 'NEG', 'score': 0.00124213972594589}]]"
+"The Italian man says, “Last week, my wife and I had great sex. I rubbed her body all over with olive oil, we made passionate love, and she screamed for five full minutes at the end.”",,7280.0,0.0,,,"The Frenchman boasts, “Last week when my wife and I had sex, I rubbed her body all over with butter. We then made passionate love and she screamed for fifteen minutes.”
+
+
+
+The old Jewish man says, “Well, last week my wife and I had sex too. I rubbed her body all over with schmaltz, we made love, and she screamed for over six hours.”
+
+
+
+The Italian and Frenchman were stunned. They asked, “What could you have possibly done to make your wife scream for six hours?”
+
+
+
+The old Jewish man replies: “I wiped my hands on the bedsheet.”","[[{'label': 'POS', 'score': 0.9880310893058777}, {'label': 'NEU', 'score': 0.011091778054833412}, {'label': 'NEG', 'score': 0.0008771627908572555}]]","[[{'label': 'POS', 'score': 0.754677414894104}, {'label': 'NEU', 'score': 0.243522509932518}, {'label': 'NEG', 'score': 0.0018000680720433593}]]"
+My girlfriend broke up with me for being too “un-American”.,,1245.0,0.0,,,I saw it coming from a kilometre away.,"[[{'label': 'NEG', 'score': 0.9809051752090454}, {'label': 'NEU', 'score': 0.01526747364550829}, {'label': 'POS', 'score': 0.003827316453680396}]]","[[{'label': 'NEU', 'score': 0.9741910099983215}, {'label': 'POS', 'score': 0.015266737900674343}, {'label': 'NEG', 'score': 0.010542184114456177}]]"

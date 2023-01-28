@@ -1,0 +1,19 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+r/Futurology's Official Discord - A relaxed place to chill and discuss all things Futurology.,,1065.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6140517592430115}, {'label': 'POS', 'score': 0.3845136761665344}, {'label': 'NEG', 'score': 0.0014345815870910883}]]",
+"Due to the recent influx of low effort posts, we have implemented a new temporary rule.",,1381.0,0.0,,,"Text threads must promote in-depth, intellectual discussion. Basically, no more low quality r/AskReddit style and/or no low quality r/ShowerThoughts style AI posts please. **If you see these posts, please downvote and report.** 
+
+This rule will apply immediately.
+
+Examples of what is **not** allowed:
+
+* ""Will AI replace authors in the future?""
+* “houses in the future will not have a kitchen”
+* “TVA reinstates rolling blackouts for Nashville Electric Service, other companies""
+* ""A solution to prevent AI spam while still allowing copyright""
+
+This is a good time to remind you to look over our [rules]( as well as our [wiki/faq in our sidebar.]( Our rules and wiki are the warning.
+
+Thank you for your assistance, and for being the best part of r/Futurology","[[{'label': 'NEU', 'score': 0.8561422228813171}, {'label': 'NEG', 'score': 0.13115981221199036}, {'label': 'POS', 'score': 0.012697989121079445}]]","[[{'label': 'NEU', 'score': 0.8496978282928467}, {'label': 'NEG', 'score': 0.09419453144073486}, {'label': 'POS', 'score': 0.05610760301351547}]]"
+Google AI can create music in any genre from a text description - MusicLM is surprisingly talented,,2609.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9248454570770264}, {'label': 'NEU', 'score': 0.07281793653964996}, {'label': 'NEG', 'score': 0.002336673205718398}]]",
+ChatGPT passes exams from law and business schools | CNN Business,,5868.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8377783298492432}, {'label': 'POS', 'score': 0.16081802546977997}, {'label': 'NEG', 'score': 0.0014036950888112187}]]",
+Big Tech was moving cautiously on AI. Then came ChatGPT.,,135.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9308215975761414}, {'label': 'POS', 'score': 0.06156779080629349}, {'label': 'NEG', 'score': 0.007610567379742861}]]",

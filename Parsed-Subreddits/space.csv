@@ -1,0 +1,30 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"All Space Questions thread for week of January 22, 2023",,14.0,0.0,,,"Please sort comments by 'new' to find questions that would otherwise be buried.
+
+In this thread you can ask any space related question that you may have.
+
+Two examples of potential questions could be; ""How do rockets work?"", or ""How do the phases of the Moon work?""
+
+If you see a space related question posted in another subreddit or in this subreddit, then please politely link them to this thread.
+
+&#x200B;
+
+Ask away!","[[{'label': 'NEU', 'score': 0.9787742495536804}, {'label': 'POS', 'score': 0.01883477345108986}, {'label': 'NEG', 'score': 0.0023909362498670816}]]","[[{'label': 'NEU', 'score': 0.9799164533615112}, {'label': 'POS', 'score': 0.011857034638524055}, {'label': 'NEG', 'score': 0.00822649709880352}]]"
+"""In Event of Moon Disaster"" - What the notoriously chilling speech about Apollo 11 mission failure might have sounded like, if read by President Nixon. Recreated with voice synthesis.",,15628.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7190617918968201}, {'label': 'NEG', 'score': 0.26053181290626526}, {'label': 'POS', 'score': 0.020406395196914673}]]",
+"Green comet zooming our way, last visited 50,000 years ago",,511.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7889242768287659}, {'label': 'POS', 'score': 0.2095441371202469}, {'label': 'NEG', 'score': 0.00153162085916847}]]",
+James Webb Space Telescope discovers water ice at ringed asteroid Chariklo 'by remarkable luck',,15350.0,0.0,,,,"[[{'label': 'POS', 'score': 0.6433494091033936}, {'label': 'NEU', 'score': 0.35502585768699646}, {'label': 'NEG', 'score': 0.0016247134190052748}]]",
+"Today in 1986 @ 9:39 AM EST, the Space Shuttle Challenger Disaster Occurred",,96.0,0.0,,,"Lets remember the 7 astronauts who perished.
+
+Francis R. Scobee, ZCommander
+
+Michael J. Smith, Pilot
+
+Ronald McNair, Mission Specialist
+
+Ellison Onizuka, Mission Specialist
+
+Judith Resnik, Mission Specialist
+
+Gregory Jarvis, Payload Specialist
+
+Christa McAuliffe, Payload Specialilst, teacher","[[{'label': 'NEU', 'score': 0.9744774699211121}, {'label': 'POS', 'score': 0.015144662000238895}, {'label': 'NEG', 'score': 0.010377834551036358}]]","[[{'label': 'NEU', 'score': 0.7406582832336426}, {'label': 'POS', 'score': 0.2569356858730316}, {'label': 'NEG', 'score': 0.002406118204817176}]]"

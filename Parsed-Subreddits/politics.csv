@@ -1,0 +1,16 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Saturday Morning Political Cartoon Thread,,58.0,0.0,,,"It's Saturday, folks. Let's all kick back with a cup of coffee and share some cartoons!
+
+Feel free to share political cartoons in this thread. Besides our usual civility policy, there are three rules to follow:
+
+ 1. Every top-level comment must contain a political cartoon. This means no text-only top-level comments.
+
+ 2. It must be an original cartoon. This means no photographs, no edited cartoons, no AI generated images, no templates, no memes and no image macros. OC is allowed, as is animation.
+
+ 3. Each top-level comment should only have a maximum of 3 cartoons. 
+
+That's all. Enjoy your weekend!","[[{'label': 'NEU', 'score': 0.9582830667495728}, {'label': 'POS', 'score': 0.03990761190652847}, {'label': 'NEG', 'score': 0.001809252891689539}]]","[[{'label': 'POS', 'score': 0.662930428981781}, {'label': 'NEU', 'score': 0.33581939339637756}, {'label': 'NEG', 'score': 0.0012501870514824986}]]"
+McDonald's president who made $7.4 million last year says proposal to pay fast-food workers $22 an hour is 'costly and job-destroying',,42842.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8159423470497131}, {'label': 'NEU', 'score': 0.17813964188098907}, {'label': 'POS', 'score': 0.0059180185198783875}]]",
+Minnesota Senate passes bill that would protect abortion rights in state law,,3252.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5328641533851624}, {'label': 'POS', 'score': 0.46548992395401}, {'label': 'NEG', 'score': 0.001645917072892189}]]",
+"Georgia voters want marijuana legalized, AJC poll shows",,848.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8120537400245667}, {'label': 'POS', 'score': 0.18551644682884216}, {'label': 'NEG', 'score': 0.002429817570373416}]]",
+Documents show how 19 ‘Cop City’ activists got charged with terrorism | Georgia police are invoking a 2017 terrorism law against activists accused of little more than trespassing.,,2250.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7094122767448425}, {'label': 'NEU', 'score': 0.2859281301498413}, {'label': 'POS', 'score': 0.004659614525735378}]]",

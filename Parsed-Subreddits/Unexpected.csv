@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"Click here to join our Discord server 'Unexpected Friends' to socialize, meet new friends and have free cake!",,3449.0,0.0,,,,"[[{'label': 'POS', 'score': 0.7815386056900024}, {'label': 'NEU', 'score': 0.21741871535778046}, {'label': 'NEG', 'score': 0.0010426950175315142}]]",
+Sexy,,14334.0,0.0,,,,"[[{'label': 'POS', 'score': 0.932181179523468}, {'label': 'NEU', 'score': 0.06321043521165848}, {'label': 'NEG', 'score': 0.004608418792486191}]]",
+Smoking a cigarette,,5714.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9680259823799133}, {'label': 'POS', 'score': 0.02776498533785343}, {'label': 'NEG', 'score': 0.0042090145871043205}]]",
+Bowing in a wedding...,,1712.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9340127110481262}, {'label': 'POS', 'score': 0.06387023627758026}, {'label': 'NEG', 'score': 0.002117048716172576}]]",
+someone is really enjoying the training,,1124.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9838009476661682}, {'label': 'NEU', 'score': 0.015246091410517693}, {'label': 'NEG', 'score': 0.0009529829258099198}]]",

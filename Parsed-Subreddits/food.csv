@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+2023 r/Wing's Flavor Playoffs: Round 1: Matchup 7| Jamaican Jerk vs Teriyaki,,0.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9752876162528992}, {'label': 'POS', 'score': 0.02221957966685295}, {'label': 'NEG', 'score': 0.0024928494822233915}]]",
+We turned 15! 🎉,,46.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8409700393676758}, {'label': 'POS', 'score': 0.15757884085178375}, {'label': 'NEG', 'score': 0.0014511117478832603}]]",
+[homemade] Walnut and pistachio Baklava,,1956.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9561741948127747}, {'label': 'POS', 'score': 0.041712719947099686}, {'label': 'NEG', 'score': 0.0021130191162228584}]]",
+"[homemade]chorizo,potato,bell peppers,onion,bacon and cheese skillet.",,603.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9220390319824219}, {'label': 'POS', 'score': 0.07596691697835922}, {'label': 'NEG', 'score': 0.001994050107896328}]]",
+[i ate] Spam musubi,,6140.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.6400289535522461}, {'label': 'NEU', 'score': 0.35476168990135193}, {'label': 'POS', 'score': 0.005209349095821381}]]",

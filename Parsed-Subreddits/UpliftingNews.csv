@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"‘Robin Hood’ energy strikers give free power to French schools, hospitals, low-income homes",,17762.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.891157865524292}, {'label': 'NEG', 'score': 0.0827760398387909}, {'label': 'POS', 'score': 0.02606610767543316}]]",
+Dungeons & Dragons Scraps Plans to Update Its Open Game License,,5114.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9573274850845337}, {'label': 'POS', 'score': 0.0405300036072731}, {'label': 'NEG', 'score': 0.0021425087470561266}]]",
+$1 Trillion Green Investment Matches Fossil Fuels Investment for First Time in 2022,,120.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6634137630462646}, {'label': 'POS', 'score': 0.33470550179481506}, {'label': 'NEG', 'score': 0.0018806994194164872}]]",
+Mysterious object shines 570 billion times stronger than the Sun,,75.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7831961512565613}, {'label': 'POS', 'score': 0.21316476166248322}, {'label': 'NEG', 'score': 0.0036390579771250486}]]",
+UK scientists discover method to reduce steelmaking’s CO2 emissions by 90%,,17663.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5984424948692322}, {'label': 'POS', 'score': 0.3897208571434021}, {'label': 'NEG', 'score': 0.011836659163236618}]]",

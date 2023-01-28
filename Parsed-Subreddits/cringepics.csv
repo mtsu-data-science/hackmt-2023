@@ -1,0 +1,19 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+2 Most common rule violations,,69.0,0.0,,,"Update:  Enough with the Replika spam
+
+From the sidebar
+
+Rule 2 - Remove All Personal Information.
+Do not post any identifiable information, names, or usernames. This is a bannable offense.
+
+This includes social media profiles and Reddit accounts.
+
+Rule 3 - No Content Involving Minors.
+Do not post content that includes anyone under the age of 18. This is a bannable offense.
+
+
+For $8 you can identify as Elon Musk","[[{'label': 'NEG', 'score': 0.95999675989151}, {'label': 'NEU', 'score': 0.036078136414289474}, {'label': 'POS', 'score': 0.003925126511603594}]]","[[{'label': 'NEG', 'score': 0.9457695484161377}, {'label': 'NEU', 'score': 0.0513460598886013}, {'label': 'POS', 'score': 0.0028843791224062443}]]"
+Ew,,1806.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9391045570373535}, {'label': 'NEU', 'score': 0.05012119561433792}, {'label': 'POS', 'score': 0.010774153284728527}]]",
+meta,,8527.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8898723125457764}, {'label': 'NEG', 'score': 0.055290136486291885}, {'label': 'POS', 'score': 0.05483756214380264}]]",
+"Sounds like a catch, ladies",,361.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5598168969154358}, {'label': 'POS', 'score': 0.438106507062912}, {'label': 'NEG', 'score': 0.002076624194160104}]]",
+i met my top fan for $10k,,16.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5433898568153381}, {'label': 'POS', 'score': 0.45505812764167786}, {'label': 'NEG', 'score': 0.0015519890002906322}]]",

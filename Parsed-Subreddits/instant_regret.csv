@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+This regret face.,,709.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9702463150024414}, {'label': 'NEU', 'score': 0.02593321166932583}, {'label': 'POS', 'score': 0.003820407669991255}]]",
+When you're powerless to stop your car,,8750.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8199697732925415}, {'label': 'NEU', 'score': 0.17526771128177643}, {'label': 'POS', 'score': 0.004762545228004456}]]",
+I guess this was what I deserved for trying to get my sisters cat inside after he escaped… lol,,21475.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.5024506449699402}, {'label': 'NEU', 'score': 0.4882279932498932}, {'label': 'POS', 'score': 0.00932131614536047}]]",
+Watch your step!,,17461.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7618478536605835}, {'label': 'NEG', 'score': 0.18469762802124023}, {'label': 'POS', 'score': 0.05345449596643448}]]",
+The look on his face says it all,,6306.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5158784985542297}, {'label': 'POS', 'score': 0.48182961344718933}, {'label': 'NEG', 'score': 0.0022918900940567255}]]",

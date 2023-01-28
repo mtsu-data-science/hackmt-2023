@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+National vote sees Australian public broadcaster forced to play song about Prime Minister pleasuring himself with coal,,6134.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7145014405250549}, {'label': 'NEU', 'score': 0.2782193720340729}, {'label': 'POS', 'score': 0.007279158569872379}]]",
+Marie Kondo Stops Tidying Up: 'My Home Is Messy',,1857.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.89797443151474}, {'label': 'NEU', 'score': 0.09816544502973557}, {'label': 'POS', 'score': 0.003860139986500144}]]",
+Rick Ross refuses to ride in Teslas because they might drive him to the police,,5729.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.6612765789031982}, {'label': 'NEU', 'score': 0.3336458206176758}, {'label': 'POS', 'score': 0.00507762748748064}]]",
+"Tucker Carlson Rips Menthol Cigarette Bans, Says Nicotine 'Frees Your Mind'",,28512.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8253490328788757}, {'label': 'POS', 'score': 0.1646316945552826}, {'label': 'NEG', 'score': 0.0100192716345191}]]",
+US news agency AP again clarifies tweet advising that writing 'the French' is 'dehumanizing',,292.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9606027007102966}, {'label': 'NEU', 'score': 0.03633337467908859}, {'label': 'POS', 'score': 0.003063908312469721}]]",

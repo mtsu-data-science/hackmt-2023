@@ -1,0 +1,18 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+10 Million Subscribers.,,1900.0,0.0,,,"Hello everyone. 
+
+I promise to keep this short. 
+
+I wanted to write this a few days after we officially hit 10 million subscribers because I wanted to give ourselves and our community time to reflect. I've [been]( [writing]( [these]( [updates]( [for]( [the]( [past]( 5 years]( and each time I write them, I reflect upon the size and diversity of our community. We started this subreddit as a way to bring a small piece of kindness to the internet, a small sliver devoid of vitriol or hatred. I daresay we have succeeded here. What we have also succeeded at was something more than anything we ever could have dreamed of. We became part of a bigger movement, a perceptible shift in online interactions, away from cyberbullying crass humor, into one of acceptance, understanding, and inclusion. 
+
+We stand proud looking at the small role this subreddit has played, and rejoice with others in our goal to make the internet a bit nicer. 10 million subscribers is just a number, but it reflects the severity and magnitude of people who want to take the time to enjoy content a bit more on the wholesome side. 
+
+Please do not hesitate to message me, or any of the other mods if you are in need of support. 
+
+Have a wonderful holiday season, 
+
+Noerdy, and the mods of /r/WholesomeMemes","[[{'label': 'NEU', 'score': 0.9617658257484436}, {'label': 'POS', 'score': 0.03283135965466499}, {'label': 'NEG', 'score': 0.005402883980423212}]]","[[{'label': 'NEU', 'score': 0.7163059711456299}, {'label': 'POS', 'score': 0.2819337844848633}, {'label': 'NEG', 'score': 0.0017602615989744663}]]"
+Wholesome goofy,,46978.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9702597856521606}, {'label': 'NEU', 'score': 0.02262752689421177}, {'label': 'POS', 'score': 0.007112693507224321}]]",
+Wise words,,7333.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9767349362373352}, {'label': 'NEU', 'score': 0.02156466618180275}, {'label': 'NEG', 'score': 0.0017003759276121855}]]",
+How to Handle Bullies,,6184.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.5099515318870544}, {'label': 'NEU', 'score': 0.48372629284858704}, {'label': 'POS', 'score': 0.00632217014208436}]]",
+"""You were never a nobody, Max """,,49121.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5660380125045776}, {'label': 'POS', 'score': 0.4293813705444336}, {'label': 'NEG', 'score': 0.004580578301101923}]]",

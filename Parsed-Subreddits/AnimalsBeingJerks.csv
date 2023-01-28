@@ -1,0 +1,11 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"Animals defecating, fornicating and playing are engaging in normal animal behavior",,549.0,0.0,,,"Apparently we have to remind you once again :
+
+#This is not the place to post your videos and images of your dog humping your leg, trying to hump another dog or your cat shitting outside their litter box.
+
+
+#And please stop posting submissions in which people tease their animals. There is no place for human jerks here.","[[{'label': 'NEG', 'score': 0.9345163106918335}, {'label': 'NEU', 'score': 0.06214919313788414}, {'label': 'POS', 'score': 0.0033344996627420187}]]","[[{'label': 'NEG', 'score': 0.9339538216590881}, {'label': 'NEU', 'score': 0.06303094327449799}, {'label': 'POS', 'score': 0.00301514589227736}]]"
+"Don't do that to, Harvey (rescued cat, on a diet)",,4327.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6049075722694397}, {'label': 'NEG', 'score': 0.3849935829639435}, {'label': 'POS', 'score': 0.010098871774971485}]]",
+You’re in my personal space,,7591.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7573389410972595}, {'label': 'NEU', 'score': 0.2373357117176056}, {'label': 'POS', 'score': 0.005325349513441324}]]",
+They’re like friends.. until they’re not,,440.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.571107029914856}, {'label': 'NEG', 'score': 0.3981938064098358}, {'label': 'POS', 'score': 0.03069915995001793}]]",
+My dogs steals my mittens to try and get me to stay outside and play with him when I start to head inside,,10199.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9288349151611328}, {'label': 'NEU', 'score': 0.06761754304170609}, {'label': 'POS', 'score': 0.003547533182427287}]]",

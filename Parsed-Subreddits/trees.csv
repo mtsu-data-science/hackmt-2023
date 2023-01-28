@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+“IS THIS MOLD?!?!” ; some info on identifying mold.,,332.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7774177193641663}, {'label': 'NEU', 'score': 0.21769993007183075}, {'label': 'POS', 'score': 0.004882294684648514}]]",
+When you’re desperate for a hit,,1191.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.508655309677124}, {'label': 'NEU', 'score': 0.483451783657074}, {'label': 'POS', 'score': 0.00789287593215704}]]",
+"Meanwhile, in Canada...",,638.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9787513613700867}, {'label': 'POS', 'score': 0.01769930124282837}, {'label': 'NEG', 'score': 0.003549284301698208}]]",
+Found a new way to get resin out of a clogged bowl…,,444.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.898184061050415}, {'label': 'POS', 'score': 0.0650239884853363}, {'label': 'NEG', 'score': 0.03679194673895836}]]",
+"Pre rolled some goodies for a cabin trip with homies. Ended up getting stuck on an 11 mile dirt road with a massive tree blocking our path…. 1 chainsaw, 5 fuck boiz, and 9 hours later, the tree was moved and this box was completely empty… lol",,258.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9548596143722534}, {'label': 'NEU', 'score': 0.04178909957408905}, {'label': 'POS', 'score': 0.003351281164214015}]]",

@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+/r/facepalm is looking for new moderators. Please fill out this form if you'd like to apply!,,52.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9320933222770691}, {'label': 'POS', 'score': 0.06575196236371994}, {'label': 'NEG', 'score': 0.002154730958864093}]]",
+This sign from a University,,7445.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9779254198074341}, {'label': 'POS', 'score': 0.018940843641757965}, {'label': 'NEG', 'score': 0.003133696038275957}]]",
+This woman talking about what kind of men she wants...,,16667.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5332096815109253}, {'label': 'NEG', 'score': 0.4558505117893219}, {'label': 'POS', 'score': 0.01093977876007557}]]",
+Twitter is worse than reddit....,,1933.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9836311340332031}, {'label': 'NEU', 'score': 0.009114667773246765}, {'label': 'POS', 'score': 0.007254189345985651}]]",
+Just some random dude telling an OBGYN she’s wrong about something relevant to her profession.,,14807.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9289311766624451}, {'label': 'NEU', 'score': 0.0681852176785469}, {'label': 'POS', 'score': 0.0028836450073868036}]]",

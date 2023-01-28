@@ -1,0 +1,22 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Check here to see if your submission will be removed.,,594.0,0.0,,,"#**Please do NOT post the following:**
+
+
+#Mourning posts/sick animal posts
+
+#Pictures of animals sitting/sleeping together
+
+#Animals in costumes
+
+
+#Animals doing tricks
+
+#Wild animals being kept as pets
+
+#Animals sitting near sick people
+
+#Staged submissions","[[{'label': 'NEU', 'score': 0.9704773426055908}, {'label': 'NEG', 'score': 0.020836304873228073}, {'label': 'POS', 'score': 0.00868638139218092}]]","[[{'label': 'NEG', 'score': 0.9828899502754211}, {'label': 'NEU', 'score': 0.013166004791855812}, {'label': 'POS', 'score': 0.003944080322980881}]]"
+My dog decided she’s cool being a pillow to our first stray rescue. Kitten had a bad URI so she can barely see. She’s much better now.,,6221.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7629252672195435}, {'label': 'NEG', 'score': 0.1755150556564331}, {'label': 'POS', 'score': 0.06155975162982941}]]",
+This is my best friend🐴🐕,,27549.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9918678402900696}, {'label': 'NEU', 'score': 0.005789322312921286}, {'label': 'NEG', 'score': 0.002342821331694722}]]",
+Besties having an after nap play.,,2045.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6951311230659485}, {'label': 'POS', 'score': 0.3032160699367523}, {'label': 'NEG', 'score': 0.0016528548439964652}]]",
+"Aww Jouley, give it a few more years",,5389.0,0.0,,,,"[[{'label': 'POS', 'score': 0.6881606578826904}, {'label': 'NEU', 'score': 0.310272216796875}, {'label': 'NEG', 'score': 0.001567186787724495}]]",

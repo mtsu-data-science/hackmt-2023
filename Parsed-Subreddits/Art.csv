@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+"Lake Town, sammal4d/me, 3d, 2023",,6177.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9787592887878418}, {'label': 'POS', 'score': 0.018412966281175613}, {'label': 'NEG', 'score': 0.0028277600649744272}]]",
+"Long Dawn, Me, Photo manipulation & digital painting, 2023",,8515.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9718058705329895}, {'label': 'POS', 'score': 0.025332067161798477}, {'label': 'NEG', 'score': 0.002862075110897422}]]",
+"The Four Horsemen, me, digital, 2023",,2779.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9628832340240479}, {'label': 'POS', 'score': 0.034589558839797974}, {'label': 'NEG', 'score': 0.002527201548218727}]]",
+"Animal icons, me, digital brushes, 2023",,1050.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9085253477096558}, {'label': 'POS', 'score': 0.08936735987663269}, {'label': 'NEG', 'score': 0.0021073310635983944}]]",
+"“Reddish Fox”, Oksana Ivanik (me), 2023",,1961.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9796736836433411}, {'label': 'POS', 'score': 0.016726674512028694}, {'label': 'NEG', 'score': 0.0035995319485664368}]]",

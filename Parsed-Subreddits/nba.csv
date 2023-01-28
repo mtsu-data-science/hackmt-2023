@@ -1,0 +1,62 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Daily Discussion Thread + Game Thread Index,,13.0,0.0,,,"# Game Threads Index (January 28, 2023):
+
+|Tip-off|GDT|Away|Score|Home|PGT|
+|:--|:--:|:--|:-:|:--|:--:|
+|03:00 pm ET|[Link]( Nuggets](/r/denvernuggets)|04:36 4Q >!110 to 115!<|[Philadelphia 76ers](/r/sixers)||
+|05:30 pm ET|[Link]( York Knicks](/r/nyknicks)|PRE-GAME|[Brooklyn Nets](/r/gonets)||
+|07:00 pm ET||[Houston Rockets](/r/rockets)|PRE-GAME|[Detroit Pistons](/r/detroitpistons)||
+|07:00 pm ET||[Chicago Bulls](/r/chicagobulls)|PRE-GAME|[Orlando Magic](/r/orlandomagic)||
+|07:30 pm ET||[Los Angeles Clippers](/r/laclippers)|PRE-GAME|[Atlanta Hawks](/r/atlantahawks)||
+|08:00 pm ET||[Sacramento Kings](/r/kings)|PRE-GAME|[Minnesota Timberwolves](/r/timberwolves)||
+|08:00 pm ET||[Washington Wizards](/r/washingtonwizards)|PRE-GAME|[New Orleans Pelicans](/r/nolapelicans)||
+|08:00 pm ET||[Phoenix Suns](/r/suns)|PRE-GAME|[San Antonio Spurs](/r/nbaspurs)||
+|08:30 pm ET||[Los Angeles Lakers](/r/lakers)|PRE-GAME|[Boston Celtics](/r/bostonceltics)||
+|09:00 pm ET||[Dallas Mavericks](/r/mavericks)|PRE-GAME|[Utah Jazz](/r/utahjazz)||
+|10:00 pm ET||[Toronto Raptors](/r/torontoraptors)|PRE-GAME|[Portland Trail Blazers](/r/ripcity)||","[[{'label': 'NEU', 'score': 0.9806175827980042}, {'label': 'POS', 'score': 0.01584942825138569}, {'label': 'NEG', 'score': 0.003532929578796029}]]","[[{'label': 'NEU', 'score': 0.9811667799949646}, {'label': 'POS', 'score': 0.014768327586352825}, {'label': 'NEG', 'score': 0.004064913373440504}]]"
+"[SERIOUS NEXT DAY THREAD] Post-Game Discussion (January 27, 2023)",,28.0,0.0,,,"Here is a place to have in depth, x's and o's, discussions on yesterday's games. Post-game discussions are linked in the table, keep your memes and reactions there.
+
+Please keep your discussion of a particular game in the respective comment thread. **All direct replies to this post will be removed.**
+
+
+|Away|Home|Score|GT|PGT|
+|:--|:--|:-:|:-:|:-:|
+|[](/MIL) Milwaukee Bucks |[](/IND) Indiana Pacers | 141 - 131 | [Link]( | [Link]( |
+|[](/MEM) Memphis Grizzlies |[](/MIN) Minnesota Timberwolves | 100 - 111 | [Link]( | [Link]( |
+|[](/ORL) Orlando Magic |[](/MIA) Miami Heat | 105 - 110 | [Link]( | [Link]( |
+|[](/CLE) Cleveland Cavaliers |[](/OKC) Oklahoma City Thunder | 100 - 112 | [Link]( | [Link]( |
+|[](/TOR) Toronto Raptors |[](/GSW) Golden State Warriors | 117 - 129 | [Link]( | [Link]( |","[[{'label': 'NEU', 'score': 0.9828169345855713}, {'label': 'POS', 'score': 0.012211679480969906}, {'label': 'NEG', 'score': 0.004971344023942947}]]","[[{'label': 'NEU', 'score': 0.9483168721199036}, {'label': 'POS', 'score': 0.05010761320590973}, {'label': 'NEG', 'score': 0.0015755615895614028}]]"
+[Sam Quinn] Defensive Player of the Year is currently off of the board at Caesar's. We might be witnessing the most destructive Reddit post in NBA history.,,12504.0,0.0,,,"Source:
+
+
+
+> Defensive Player of the Year is currently off of the board at Caesar's. We might be witnessing the most destructive Reddit post in NBA history.
+
+This is getting crazy. So many implications. Wonder how this will be addressed.","[[{'label': 'NEG', 'score': 0.8350403308868408}, {'label': 'NEU', 'score': 0.15938110649585724}, {'label': 'POS', 'score': 0.005578568205237389}]]","[[{'label': 'NEG', 'score': 0.6127008199691772}, {'label': 'NEU', 'score': 0.37704160809516907}, {'label': 'POS', 'score': 0.010257569141685963}]]"
+"[Katz] Regarding the r/NBA post on the Grizzlies scorekeeping: ""This post is making its way around the league now, not just the internet. For what it's worth, I checked in, and the Grizzlies use the same official scorer this season as they used last season.""",,6109.0,0.0,,,"[Source](
+
+
+> Regarding the r/NBA post on the Grizzlies scorekeeping: ""This post is making its way around the league now, not just the internet. For what it's worth, I checked in, and the Grizzlies use the same official scorer this season as they used last season.""
+
+u/AdMassive6666's post looks like it's actually being taken serious by people in the NBA","[[{'label': 'NEU', 'score': 0.9763529896736145}, {'label': 'POS', 'score': 0.02041064016520977}, {'label': 'NEG', 'score': 0.003236322896555066}]]","[[{'label': 'NEU', 'score': 0.9824820756912231}, {'label': 'POS', 'score': 0.013754470273852348}, {'label': 'NEG', 'score': 0.003763454034924507}]]"
+[Analysis] There is a 0.000003% chance that the discrepancy between Jaren Jackson Jr.'s Blocks/Steals is solely due to random distribution,,5687.0,0.0,,,"There is much debate right now about JJJ and the Memphis Grizzlies' scorekeeper boosting his stats. I am not skilled enough in the rulebook to analyze each play individually, but I can look at the numbers to see what the likelihood would be.
+
+Fortunately, we can use a Normal Distribution (or Gaussian Distribution) to do this analysis. [Here is a study showing Normal Distribution in NBA games.](
+
+A normal distribution lets us analyze the ""bell curve"" of a statistic. Once we know the mean (average) and standard deviation (how spread out it is), we can determine the probability falling in a certain range. As a rule of thumb, 68% of values will fall within 1 standard deviation of the mean, 95% within 2 standard deviations, and 99.7% within 3 standard deviations. [Here is a link with more reading if anyone is curious.](
+
+So now onto the analysis. I downloaded the game logs from Basketball Reference, and split them up into home and away. I calculated the Mean and Standard Deviation for his home and road games, and used a Z-Test to compare the two. A Z-Test tells you the probability that a randomly generated sample (of the same size as the data) has a mean value greater than a specified number based on the original data set. Since the number of home and away games is essentially identical, this works out. 
+
+The results of the Z-Test show that there is only a **0.000003%** chance that the difference between his road and home splits is due to random chance. This is 1 in 3 million chance. I am more likely to get struck by lightning than JJJ to have gotten these stats due to random  chance.
+
+**Important:**
+
+It’s important to note that statistically significant doesn’t describe the cause behind it. It could be he’s playing much better at home, or he’s getting better scorekeeping. All it says is that “something is different here”
+
+To repeat: **I am not testing why there is a difference. Just noting that there is one.**
+
+Edit: another test you can do is a T-Test, which might be more suited based on the sample size. u/InOrbit3532 found the results [here]( with a 0.19% chance.
+
+Edit: for those saying that you can’t do this analysis because home and road splits are different- [see this comment]( from u/Fofodrip . The difference is 4.8 vs 4.7 blocks per game. It’s totally possible JJJ just plays better at home but thats not really the norm.
+
+Link to my spreadsheet with analysis here: ","[[{'label': 'NEU', 'score': 0.6181405782699585}, {'label': 'NEG', 'score': 0.37582477927207947}, {'label': 'POS', 'score': 0.006034647114574909}]]","[[{'label': 'NEU', 'score': 0.6870682835578918}, {'label': 'NEG', 'score': 0.3054402768611908}, {'label': 'POS', 'score': 0.007491427008062601}]]"

@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+The biggest challenge since Aquaman.,,7236.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.521862268447876}, {'label': 'NEG', 'score': 0.4658879041671753}, {'label': 'POS', 'score': 0.012249801307916641}]]",
+We’re not ready,,15536.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7231377363204956}, {'label': 'NEU', 'score': 0.27126553654670715}, {'label': 'POS', 'score': 0.005596713162958622}]]",
+Wise words,,3211.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9767349362373352}, {'label': 'NEU', 'score': 0.02156466618180275}, {'label': 'NEG', 'score': 0.0017003759276121855}]]",
+women are just creative while taking it sometimes,,2467.0,0.0,,,,"[[{'label': 'POS', 'score': 0.906068742275238}, {'label': 'NEU', 'score': 0.0922430008649826}, {'label': 'NEG', 'score': 0.0016882941126823425}]]",
+Workout,,1683.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9351164698600769}, {'label': 'POS', 'score': 0.056548599153757095}, {'label': 'NEG', 'score': 0.008334930986166}]]",

@@ -1,0 +1,19 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Eight Million Subscriber Event WINNERS!,,127.0,0.0,,,"We hosted an [event]( to celebrate our subreddit hitting EIGHT MILLION MEMBERS! 
+
+---
+
+The winners of said event are the following:
+
+[First Place](
+
+[Second Place](
+
+[Third Place](
+
+-----
+Thanks again everyone for being awesome and sharing great and helpful hacks every day to improve everyone's daily life. Keep being awesome and have an [AMAZING day! <3](","[[{'label': 'POS', 'score': 0.9904168844223022}, {'label': 'NEU', 'score': 0.008527974598109722}, {'label': 'NEG', 'score': 0.0010551572777330875}]]","[[{'label': 'POS', 'score': 0.9885854125022888}, {'label': 'NEU', 'score': 0.010597549378871918}, {'label': 'NEG', 'score': 0.0008169868960976601}]]"
+Smoothly remove a stuck ring,,4304.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9343555569648743}, {'label': 'POS', 'score': 0.05471036583185196}, {'label': 'NEG', 'score': 0.010934052057564259}]]",
+1 way to tell if a $100 bill is real,,4699.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9804143905639648}, {'label': 'POS', 'score': 0.011478634551167488}, {'label': 'NEG', 'score': 0.00810702983289957}]]",
+folding tape,,30925.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9419639110565186}, {'label': 'POS', 'score': 0.041688498109579086}, {'label': 'NEG', 'score': 0.01634756661951542}]]",
+Best things to take to reduce blood pressure?,,14.0,0.0,,,"Currently on the ole' beetroot juice, morning & night just wondered if there was any other cures?","[[{'label': 'NEU', 'score': 0.9380367994308472}, {'label': 'POS', 'score': 0.045597609132528305}, {'label': 'NEG', 'score': 0.01636553555727005}]]","[[{'label': 'NEU', 'score': 0.9507784247398376}, {'label': 'POS', 'score': 0.0454040989279747}, {'label': 'NEG', 'score': 0.003817476099357009}]]"

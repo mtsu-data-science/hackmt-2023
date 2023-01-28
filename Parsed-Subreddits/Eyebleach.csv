@@ -1,0 +1,28 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Black Lives Matter.,,31130.0,0.0,,,"We, the r/Eyebleach community stand in full support of our Black members and with all Black people in America in their fight for the rights that all Americans rightly deserve. Not all racism is hate, the deeply-rooted effects of systemic racism are even more insidious and far-reaching in American society and immediate, drastic change is imperative. 
+
+Sadly, this is most publicly, and devastatingly apparent through the atrocities continually committed against Black Americans by the police. This is not a new problem but, due to the prevalence of video-enabled handheld devices, these atrocities are increasingly being brought to light in ways which make them impossible for society to ignore, most recently with George Floyd and Jacob Blake. Police in America have long been empowered by public funding to enforce the law but they have never been empowered to determine guilt, nor to sentence anyone to abuse nor death. We stand for change.
+
+Here are some ways that you can take action now:
+
+[Use resistbot]( to contact your government officials to demand policing reform.
+
+You can donate directly to fuel the Black Lives Matter campaign [via ActBlue]( 
+
+Visit [BlackLivesMatter.com]( to find out how you can get involved.
+
+Other ways to donate:
+
+[NAACP]( is a civil rights organization, founded in 1909, which is committed to political, educational, social and economic equality.
+
+[National Bail Fund Network]( 
+
+[Know Your Rights Camp]( started by Colin Kaepernick, has a mission to “to advance the liberation and well-being of Black and Brown communities through education, self-empowerment, mass-mobilization and the creation of new systems that elevate the next generation of change leaders.”
+
+[The Equal Justice Initiative]( The Equal Justice Initiative is committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.
+
+[The ACLU]( has filed over 160 legal actions to safeguard voting rights, realease people from prisons, jails and immigration detention, protect access to abortion, and more.","[[{'label': 'NEG', 'score': 0.6479699015617371}, {'label': 'NEU', 'score': 0.343599408864975}, {'label': 'POS', 'score': 0.008430758491158485}]]","[[{'label': 'POS', 'score': 0.731312096118927}, {'label': 'NEU', 'score': 0.2661043107509613}, {'label': 'NEG', 'score': 0.0025836294516921043}]]"
+Little babies,,11088.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8471396565437317}, {'label': 'POS', 'score': 0.1459045708179474}, {'label': 'NEG', 'score': 0.006955745164304972}]]",
+My dog had 15 puppies yesterday...❤️,,10099.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9379006624221802}, {'label': 'POS', 'score': 0.05983397364616394}, {'label': 'NEG', 'score': 0.0022652563638985157}]]",
+Yes she is really going to sleep again,,573.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6967726945877075}, {'label': 'POS', 'score': 0.30163222551345825}, {'label': 'NEG', 'score': 0.0015950327506288886}]]",
+"Nothing to see here, just 2 chonkers",,466.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8787012696266174}, {'label': 'NEU', 'score': 0.11705932766199112}, {'label': 'POS', 'score': 0.004239403177052736}]]",

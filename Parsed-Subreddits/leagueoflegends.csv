@@ -1,0 +1,301 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Patch 13.1B Bug Megathread,,55.0,0.0,,,"Greetings Summoners!
+
+With every new patch Riot introduces to balance out champions and items there are some unforeseen issues that creep up and cause disruption during gameplay. We have noticed that these issues which eventually get fixed clutter up the subreddit immediately following the patch.
+
+We want to avoid this by having a single Megathread which will be posted after every patch so that you guys can report the various issues in one place. This allows Riot to easily keep track of the bugs by providing a central hub and also allows other users to confirm that they might have encountered.
+
+**Note only bugs caused by the** [13.1B]( **Patch should be reported below.**
+
+Prerequisites to be noted before reporting a bug
+
+***
+
+1. A bug will ideally be accompanied with a screenshot or a video. This provides credibility to your report.
+2. Steps to recreate the bugs should be submitted if possible. This helps Rioters recreate the bug and helps them find the cause behind it.
+3. The bug must have been caused by the latest patch.
+
+***
+
+**Format when reporting a bug:** When reporting a bug, please provide as much information as you can about your computer.
+
+• **Server**: The server you encountered the bug (NA, EUW, EUNE, TR, RU, BR, LAS, LAN etc)
+
+• **Type of Bug**: Client Bug, In Game Bug etc
+
+• **Description**: Describe what was the bug that occurred.
+
+• **Video / Screenshot**: Insert screenshot (F12 in game) or Video of the bug occurring.
+
+• **Steps to reproduce**: Provide the steps necessary if someone else had to reproduce the bug.
+
+• **Expected result**: What should have been the result when you follow the steps mentioned above.
+
+• **Observed result**: What was the result you obtained when you followed the steps mentioned above?
+
+• **Reproduction rate**:  If you try to recreate the bug how successful are you in causing it to occur? (1/10: Occurs once every 10 tries, 5/10: Occurs 5 times out of 10, 10/10: Happens every single time)
+
+• **System specs**: Processor, Video card, Ram, HDD/SSD, everything you can provide, even drivers.
+
+***
+
+**Example Bug**:
+
+• Server: EUW
+
+• Type of Bug: In-Game Bug etc
+
+• Description: Zed's R (Death Mark) does not apply secondary damage
+
+• Insert Video / Screenshot of the incident
+
+• Reproduction rate: 2/10 (happened 2 out of 10 times)
+
+• Steps to reproduce:
+
+Launch a game after selecting Zed as your champion. Attempt to use Death Mark. Observe the result.
+
+• Expected result: The damage should apply after a short delay, amplified by damage dealt during the effect.
+
+• Observed result: The damage will not apply properly.
+
+• System Specs: Intel i5 Processor, Windows 7, Nvidia Graphics card (insert model number) etc.
+
+***
+
+[**If you don't know how to format comments on Reddit click here**](
+
+***
+
+    - **Server:**   
+    - **Type of Bug:**   
+    - **Description:**   
+    - **Video / Screenshot:**   
+    - **Steps to reproduce:**   
+    - **Expected result:**   
+    - **Observed result:**   
+    - **Reproduction rate:**   
+    - **System specs:**  
+
+Copy paste the above code and fill in your details.
+
+***
+
+From this Megathread the list of bugs will not be summarized and put up in the main body of the thread, however, note that many Rioters are going through every single comment so don't worry if you post the 1500th or 3000th comment, every reply will be read over the next few days.","[[{'label': 'NEU', 'score': 0.9290491938591003}, {'label': 'NEG', 'score': 0.06335688382387161}, {'label': 'POS', 'score': 0.007593960035592318}]]","[[{'label': 'NEU', 'score': 0.861417829990387}, {'label': 'NEG', 'score': 0.1237565279006958}, {'label': 'POS', 'score': 0.014825760386884212}]]"
+LEC Winter 2023 / Week 2 - Day 1 / Live Discussion,,44.0,0.0,,,"###LEC Winter 2023
+ 
+[Lolesports]( | [Leaguepedia]( | [Eventvods.com]( | [New to LoL](
+ 
+Today's matches will be played on [**Patch 13.1**](
+
+###Today's Matches
+
+|#|Match|PST|EST|CET|KST
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:
+|1|VIT vs AST|9:00 AM|12:00 PM|18:00|02:00
+|2|FNC vs BDS|10:00 AM|1:00 PM|19:00|03:00
+|3|TH vs KOI|11:00 AM|2:00 PM|20:00|04:00
+|4|SK vs G2|12:00 PM|3:00 PM|21:00|05:00
+|5|MAD vs XL|1:00 PM|4:00 PM|22:00|06:00
+
+* All matches are Best of 1
+
+###Streams
+ 
+* [Stream on Twitch](
+ 
+* [Stream on YouTube](
+ 
+* [Stream on Lolesports](
+
+* [Audio-Only Cast Stream](
+ 
+* [Comment Stream](
+ 
+---
+
+###Standings
+
+| # | Team | Region | Record | Information |
+|:--:|:--|:--:|:--:|:--:|:--:|
+|1|[G2 Esports]( - 0|[Leaguepedia]( // [Twitter](
+|1|[Team Vitality]( - 0|[Leaguepedia]( // [Twitter](
+|3|[KOI]( - 1|[Leaguepedia]( // [Twitter](
+|3|[MAD Lions]( - 1|[Leaguepedia]( // [Twitter](
+|5|[SK Gaming]( - 2|[Leaguepedia]( // [Twitter](
+|5|[EXCEL]( - 2|[Leaguepedia]( // [Twitter](
+|5|[Team BDS]( - 2|[Leaguepedia]( // [Twitter](
+|5|[Team Heretics]( - 2|[Leaguepedia]( // [Twitter](
+|5|[Fnatic]( - 2|[Leaguepedia]( // [Twitter](
+|10|[Astralis]( - 3|[Leaguepedia]( // [Twitter](
+---
+ 
+###On-Air Team
+
+| **Hosts** |
+|:---|
+| Eefje ""[Sjokz]( Depoortere |
+
+| **Interviewers** |
+|:---|
+| Laure ""[Bulii]( Valée |
+
+| **Play-by-Play Commentators** |
+|:---|
+| Aaron ""[Medic]( Chamberlain |
+| Daniel ""[Drakos]( Drakos |
+| Trevor ""[Quickshot]( Henry |
+
+| **Colour Casters** |
+|:---|
+| Andrew ""[Vedius]( Day |
+| Christy ""[Ender]( Frierson |
+| Marc ""[Caedrel]( Robert Lamont |
+| Robert ""[Dagda]( Price |
+| Mikkel ""[Guldborg]( Guldborg Nielsen |
+
+| **Guests** |
+|:---|
+| Mads ""[Broxah]( Brock-Pedersen |
+| Alexander ""[Nymaera]( Hapgood |
+| Georgia ""[Troubleinc]( Paras |
+| Jakob ""[YamatoCannon]( Mebdi |
+| Oisín ""[Oisín]( Molloy |
+| Adrian ""[Jamada]( Wharlton-Thorne |
+
+*Not all talent will appear on every show and the weekly on air team can vary.*
+
+----
+ 
+###Format
+ 
+- Winter Season
+ - Ten teams
+ - Best of 1 single round robin
+ - Top 8 teams qualify for Groups
+
+- Groups 
+ - Eight teams
+ - 2 groups of 4
+ - Double elimination best of 3
+ - Top 2 from each group qualify for playoffs
+
+- Playoffs
+ - Four teams
+ - Double elimination best of 5
+
+The official LEC ruleset can be found [here](
+
+----
+ 
+###VoDs
+ 
+* [VoDs on Reddit](
+ 
+* [VoDs on Eventvods.com](
+​
+* [VoDs on YouTube](
+ 
+* [VoDs on Lolesports](
+
+---
+
+###Live Discussions and Post-Match Threads:
+
+[This is our Live Discussion Archive. Here you can find all the old live threads, and the respective PMTs in a stickied comment under the post.](","[[{'label': 'NEU', 'score': 0.9828009605407715}, {'label': 'POS', 'score': 0.013361413963139057}, {'label': 'NEG', 'score': 0.003837651340290904}]]","[[{'label': 'NEU', 'score': 0.9750382304191589}, {'label': 'POS', 'score': 0.021998273208737373}, {'label': 'NEG', 'score': 0.0029635431710630655}]]"
+Fnatic vs. Team BDS / LEC 2023 Winter - Week 2 / Post-Match Discussion,,948.0,0.0,,,"###LEC 2023 WINTER                 
+[Official page]( | [Leaguepedia]( | [Liquipedia]( | [Eventvods.com]( | [New to LoL](               
+
+---
+
+###Fnatic 0-1 Team BDS              
+**FNC** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [Facebook]( | [YouTube]( | [Subreddit](                  
+**BDS** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [Facebook](                  
+
+---
+
+###MATCH 1: FNC vs. BDS            
+[**Winner: Team BDS** in 38m](  
+  
+
+||Bans 1|Bans 2|[G](#mt-gold)|[K](#mt-kills)|[T](#mt-towers)|D/B|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+|**FNC**|[caitlyn](#c-caitlyn) [lucian](#c-lucian) [sejuani](#c-sejuani)|[kassadin](#c-kassadin) [nautilus](#c-nautilus)|62.2k|10|3|[H](#mt-herald)^2 [CT](#mt-chemtech)^7 |
+|**BDS**|[ryze](#c-ryze) [yuumi](#c-yuumi) [maokai](#c-maokai)|[vi](#c-vi) [kindred](#c-kindred)|73.3k|20|11|[HT](#mt-hextech)^1 [I](#mt-infernal)^3 [H](#mt-herald)^4 [CT](#mt-chemtech)^5 [B](#mt-barons)^6 [CT](#mt-chemtech)^8 [B](#mt-barons)^9 [E](#mt-elder)^10 |
+
+|**FNC**|10-20-24|[vs](#mt-kills)|20-10-41|**BDS**|
+|--:|--:|:--:|:--|:--|
+|Wunder [ksante](#c-ksante) ^2|3-4-2|TOP|7-0-2|^2 [olaf](#c-olaf) Adam|
+|Razork [viego](#c-viego) ^3|5-5-3|JNG|2-3-9|^1 [wukong](#c-wukong) Sheo|
+|Humanoid [azir](#c-azir) ^3|1-6-4|MID|5-2-8|^4 [viktor](#c-viktor) nuc|
+|Rekkles [ezreal](#c-ezreal) ^2|0-1-6|BOT|5-2-11|^1 [varus](#c-varus) Crownie|
+|rhuckz [ashe](#c-ashe) ^1|1-4-9|SUP|1-3-11|^3 [heimerdinger](#c-heimerdinger) Labrov|
+
+---
+
+[This thread was created by the Post-Match Team](            
+We are looking for volunteers to help out with Post-Match Threads. Please send a message to reddit user [lolpmtc]( with your email address to join.","[[{'label': 'NEU', 'score': 0.9775980710983276}, {'label': 'POS', 'score': 0.0193170253187418}, {'label': 'NEG', 'score': 0.0030849415343254805}]]","[[{'label': 'NEU', 'score': 0.9745154976844788}, {'label': 'POS', 'score': 0.022838769480586052}, {'label': 'NEG', 'score': 0.0026456634514033794}]]"
+Team Heretics vs. KOI / LEC 2023 Winter - Week 2 / Post-Match Discussion,,695.0,0.0,,,"###LEC 2023 WINTER                 
+[Official page]( | [Leaguepedia]( | [Liquipedia]( | [Eventvods.com]( | [New to LoL](               
+
+---
+
+###Team Heretics 1-0 KOI              
+**TH** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [Facebook]( | [YouTube](                  
+**KOI** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [YouTube](                  
+
+---
+
+###MATCH 1: TH vs. KOI            
+[**Winner: Team Heretics** in 44m](  
+  
+
+||Bans 1|Bans 2|[G](#mt-gold)|[K](#mt-kills)|[T](#mt-towers)|D/B|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+|**TH**|[caitlyn](#c-caitlyn) [maokai](#c-maokai) [kalista](#c-kalista)|[jax](#c-jax) [renekton](#c-renekton)|85.5k|20|11|[H](#mt-herald)^1 [CT](#mt-chemtech)^3 [M](#mt-mountain)^5 [B](#mt-barons)^6 [M](#mt-mountain)^7 [M](#mt-mountain)^8 [E](#mt-elder)^10 [B](#mt-barons)^11 |
+|**KOI**|[ashe](#c-ashe) [sejuani](#c-sejuani) [ryze](#c-ryze)|[wukong](#c-wukong) [viego](#c-viego)|76.7k|11|5|[HT](#mt-hextech)^2 [H](#mt-herald)^4 [B](#mt-barons)^9 |
+
+|**TH**|20-11-49|[vs](#mt-kills)|11-20-29|**KOI**|
+|--:|--:|:--:|:--|:--|
+|Evi [ksante](#c-ksante) ^2|6-3-8|TOP|1-4-7|^3 [fiora](#c-fiora) Szygenda|
+|Jankos [graves](#c-graves) ^3|2-2-10|JNG|2-4-4|^1 [elise](#c-elise) Malrang|
+|Ruby [azir](#c-azir) ^3|8-3-7|MID|5-5-3|^4 [viktor](#c-viktor) Larssen|
+|Jackspektra [lucian](#c-lucian) ^1|4-3-6|BOT|1-3-8|^2 [sivir](#c-sivir) Comp|
+|Mersa [nami](#c-nami) ^2|0-0-18|SUP|2-4-7|^1 [yuumi](#c-yuumi) Trymbi|
+
+---
+
+[This thread was created by the Post-Match Team](            
+We are looking for volunteers to help out with Post-Match Threads. Please send a message to reddit user [lolpmtc]( with your email address to join.","[[{'label': 'NEU', 'score': 0.9809844493865967}, {'label': 'POS', 'score': 0.015307276509702206}, {'label': 'NEG', 'score': 0.003708194475620985}]]","[[{'label': 'NEU', 'score': 0.9745154976844788}, {'label': 'POS', 'score': 0.022838769480586052}, {'label': 'NEG', 'score': 0.0026456634514033794}]]"
+G2 Esports vs. SK Gaming / LEC 2023 Winter - Week 2 / Post-Match Discussion,,508.0,0.0,,,"###LEC 2023 WINTER                 
+[Official page]( | [Leaguepedia]( | [Liquipedia]( | [Eventvods.com]( | [New to LoL](               
+
+---
+
+###SK Gaming 1-0 G2 Esports              
+**SK** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [Facebook]( | [YouTube]( | [Subreddit](                  
+**G2** | [Leaguepedia]( | [Liquipedia]( | [Website]( | [Twitter]( | [Facebook]( | [YouTube]( | [Subreddit](                  
+
+---
+
+###MATCH 1: SK vs. G2            
+[**Winner: SK Gaming** in 34m](  
+  
+
+||Bans 1|Bans 2|[G](#mt-gold)|[K](#mt-kills)|[T](#mt-towers)|D/B|
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+|**SK**|[heimerdinger](#c-heimerdinger) [ryze](#c-ryze) [ashe](#c-ashe)|[gwen](#c-gwen) [karma](#c-karma)|64.8k|25|9|[O](#mt-ocean)^4 [B](#mt-barons)^5 |
+|**G2**|[maokai](#c-maokai) [jax](#c-jax) [lucian](#c-lucian)|[sylas](#c-sylas) [kassadin](#c-kassadin)|59.2k|13|3|[H](#mt-herald)^1 [CT](#mt-chemtech)^2 [H](#mt-herald)^3 [C](#mt-cloud)^6 [C](#mt-cloud)^7 [B](#mt-barons)^8 |
+
+|**SK**|25-13-62|[vs](#mt-kills)|13-25-27|**G2**|
+|--:|--:|:--:|:--|:--|
+|Irrelevant [sion](#c-sion) ^3|3-6-10|TOP|6-5-4|^4 [ksante](#c-ksante) BrokenBlade|
+|Markoon [elise](#c-elise) ^1|6-3-13|JNG|1-6-8|^1 [graves](#c-graves) Yike|
+|Sertuss [azir](#c-azir) ^3|8-0-9|MID|4-5-1|^3 [akali](#c-akali) Caps|
+|Exakick [sivir](#c-sivir) ^2|7-4-9|BOT|0-7-7|^1 [varus](#c-varus) Hans Sama|
+|Doss [yuumi](#c-yuumi) ^2|1-0-21|SUP|2-2-7|^2 [lulu](#c-lulu) Mikyx|
+
+---
+
+[This thread was created by the Post-Match Team](            
+We are looking for volunteers to help out with Post-Match Threads. Please send a message to reddit user [lolpmtc]( with your email address to join.","[[{'label': 'NEU', 'score': 0.9768734574317932}, {'label': 'POS', 'score': 0.020503170788288116}, {'label': 'NEG', 'score': 0.0026232695672661066}]]","[[{'label': 'NEU', 'score': 0.9745154976844788}, {'label': 'POS', 'score': 0.022838769480586052}, {'label': 'NEG', 'score': 0.0026456634514033794}]]"

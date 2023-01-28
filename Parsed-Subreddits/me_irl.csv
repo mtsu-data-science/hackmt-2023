@@ -1,0 +1,18 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+me irl is not an edgy meme board,,17290.0,0.0,,,"**If your post is about sensitive subjects, like upsetting news stories or suicide, it isn't appropriate for me irl.**
+
+Don't post horrible things, even if you're doing so to mock them.
+
+We don't allow wiggle room for irony or reappropration, as we have no way of gauging someone's intent.
+
+---
+
+These are all things that we go over in [the subreddit rules]( but I don't expect anyone to read those lol. We've had to spend a longer than usual amount of time removing posts, so please do us a favor and don't post anything we'll have to remove. Thank you.
+
+---
+
+There has also been a huge volume of what we call twitter jokemen, which are performative posts on twitter that are just kinda boring as me irl posts. We sometimes let text posts like this get through, read [the subreddit rules]( to find out why. If you don't understand the rules, please do not post screenshots of twitter.","[[{'label': 'NEU', 'score': 0.9066874384880066}, {'label': 'NEG', 'score': 0.08008705079555511}, {'label': 'POS', 'score': 0.013225466944277287}]]","[[{'label': 'NEG', 'score': 0.9647786021232605}, {'label': 'NEU', 'score': 0.032321326434612274}, {'label': 'POS', 'score': 0.002900101477280259}]]"
+me_irl,,52410.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9508626461029053}, {'label': 'POS', 'score': 0.046841640025377274}, {'label': 'NEG', 'score': 0.0022957019973546267}]]",
+me_irl,,14525.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9508626461029053}, {'label': 'POS', 'score': 0.046841640025377274}, {'label': 'NEG', 'score': 0.0022957019973546267}]]",
+Me_irl,,829.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9445582032203674}, {'label': 'POS', 'score': 0.05338622257113457}, {'label': 'NEG', 'score': 0.002055648248642683}]]",
+me_irl,,3117.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9508626461029053}, {'label': 'POS', 'score': 0.046841640025377274}, {'label': 'NEG', 'score': 0.0022957019973546267}]]",
