@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-Joel Haver's The Prophecy,,1022.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9720308780670166}, {'label': 'POS', 'score': 0.025348089635372162}, {'label': 'NEG', 'score': 0.002620967570692301}]]",
-Excellent writing tip from South Park creators,,6678.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9823057055473328}, {'label': 'NEU', 'score': 0.016873391345143318}, {'label': 'NEG', 'score': 0.0008208723156712949}]]",
-HyperShock vs. Whiplash from Battlebots World Championship VII,,399.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9770376682281494}, {'label': 'POS', 'score': 0.02037983387708664}, {'label': 'NEG', 'score': 0.0025825665798038244}]]",
-Just a reminder that this masterpiece exists.,,98.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9540088176727295}, {'label': 'NEU', 'score': 0.045074645429849625}, {'label': 'NEG', 'score': 0.0009165460360236466}]]",
-Beautiful Kingfisher Chicks,,87.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9838776588439941}, {'label': 'NEU', 'score': 0.014985719695687294}, {'label': 'NEG', 'score': 0.0011366565013304353}]]",

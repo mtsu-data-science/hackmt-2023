@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-My wife and her mum on a camping trip - 1971,,4538.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8341181874275208}, {'label': 'POS', 'score': 0.1645011156797409}, {'label': 'NEG', 'score': 0.0013807457871735096}]]",
-My uncle (left) on his way to prom when my uncle (right) stopped by. Taken in 1986(?) in front of my mom's Potiac Fiero,,32416.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9142882823944092}, {'label': 'POS', 'score': 0.08430633693933487}, {'label': 'NEG', 'score': 0.0014053534250706434}]]",
-I asked my dad if I could post this here. He said 👍🏽. ‘79,,7880.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9660046696662903}, {'label': 'POS', 'score': 0.03162494674324989}, {'label': 'NEG', 'score': 0.0023703754413872957}]]",
-"My dad in 1953, aged 24",,6591.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9372190237045288}, {'label': 'POS', 'score': 0.061283912509679794}, {'label': 'NEG', 'score': 0.0014969526091590524}]]",
-"Debbie Harry, 1977",,1508.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9811733365058899}, {'label': 'POS', 'score': 0.013842884451150894}, {'label': 'NEG', 'score': 0.004983705002814531}]]",

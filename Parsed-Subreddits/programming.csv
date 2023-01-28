@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-Why did the new GraphQL API for WordPress take 1.5 years to be released?,,418.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.919376790523529}, {'label': 'NEU', 'score': 0.0771966353058815}, {'label': 'POS', 'score': 0.003426556708291173}]]",
-"OpenAI might be training its AI technology to replace some software engineers, report says",,103.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8462420701980591}, {'label': 'POS', 'score': 0.15191058814525604}, {'label': 'NEG', 'score': 0.001847355393692851}]]",
-Implementing GPTZero from scratch,,52.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.877566933631897}, {'label': 'POS', 'score': 0.1142641082406044}, {'label': 'NEG', 'score': 0.008169027045369148}]]",
-Six ways of dependency injection in Spring Boot — A Deep Dive,,45.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9292792081832886}, {'label': 'POS', 'score': 0.06494472175836563}, {'label': 'NEG', 'score': 0.005776133853942156}]]",
-I made a Raspberry Pi Dev Kit in-a-box.,,1566.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.972027599811554}, {'label': 'POS', 'score': 0.025634542107582092}, {'label': 'NEG', 'score': 0.002337943995371461}]]",

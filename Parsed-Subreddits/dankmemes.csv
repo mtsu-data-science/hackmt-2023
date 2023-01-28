@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-"Too little, too late…",,3918.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9291322231292725}, {'label': 'NEU', 'score': 0.06750722229480743}, {'label': 'POS', 'score': 0.003360606962814927}]]",
-Just give me sick merchandise,,5312.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9728170037269592}, {'label': 'NEU', 'score': 0.023229405283927917}, {'label': 'POS', 'score': 0.003953596111387014}]]",
-"Hey, it's Saturday now, so it's cool to post this, right?",,7184.0,0.0,,,,"[[{'label': 'POS', 'score': 0.5868708491325378}, {'label': 'NEU', 'score': 0.4117545783519745}, {'label': 'NEG', 'score': 0.0013745978940278292}]]",
-Simpler times,,23473.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8108203411102295}, {'label': 'POS', 'score': 0.1849987804889679}, {'label': 'NEG', 'score': 0.00418078014627099}]]",
-This is America,,16578.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8460786938667297}, {'label': 'NEG', 'score': 0.1435382068157196}, {'label': 'POS', 'score': 0.010383082553744316}]]",

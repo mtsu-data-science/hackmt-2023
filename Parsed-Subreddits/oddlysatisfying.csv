@@ -1,8 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-"We are looking for new moderators for /r/oddlysatisfying. If you are interested, please apply in the link below.",,6.0,0.0,,,"
-
-We'll have this up for a week finishing on January 31st 12pm GMT. If you have any questions about the moderation, please ask in this thread and we'll respond.","[[{'label': 'NEU', 'score': 0.6003053188323975}, {'label': 'POS', 'score': 0.3978005349636078}, {'label': 'NEG', 'score': 0.0018941289745271206}]]","[[{'label': 'NEU', 'score': 0.951779305934906}, {'label': 'POS', 'score': 0.046075962483882904}, {'label': 'NEG', 'score': 0.0021447683684527874}]]"
-Vinyl repair process,,2851.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9609820246696472}, {'label': 'NEG', 'score': 0.025212736800312996}, {'label': 'POS', 'score': 0.013805272057652473}]]",
-Laying bricks on a beautiful sunny day,,17355.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8729771971702576}, {'label': 'NEG', 'score': 0.07044252008199692}, {'label': 'POS', 'score': 0.056580279022455215}]]",
-I wish I had this kind of time on my hands,,2396.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.758496105670929}, {'label': 'POS', 'score': 0.23790249228477478}, {'label': 'NEG', 'score': 0.003601407865062356}]]",
-Sorted my Runts by color,,939.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.940568208694458}, {'label': 'POS', 'score': 0.05595068261027336}, {'label': 'NEG', 'score': 0.0034810947254300117}]]",

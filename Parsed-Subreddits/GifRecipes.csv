@@ -1,8 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-Meal Pic Monday,,138.0,0.0,,,"Hi everyone, and welcome to Meal Pic Monday!
-
-Meal Pic Monday is a monthly thread for members of the community to share pictures of, discuss and give pointers on the submissions from [/r/GifRecipes]( that they have made at home!","[[{'label': 'NEU', 'score': 0.9560918211936951}, {'label': 'POS', 'score': 0.04192492738366127}, {'label': 'NEG', 'score': 0.001983331749215722}]]","[[{'label': 'POS', 'score': 0.8715618252754211}, {'label': 'NEU', 'score': 0.12762413918972015}, {'label': 'NEG', 'score': 0.0008141035214066505}]]"
-Spicy White Beans with Spaghetti,,1094.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8654153943061829}, {'label': 'POS', 'score': 0.13273575901985168}, {'label': 'NEG', 'score': 0.0018487784545868635}]]",
-Woo Can Cook | Yeasted Scallion Flatbread (Qiang Bing),,1615.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8002017736434937}, {'label': 'POS', 'score': 0.19810129702091217}, {'label': 'NEG', 'score': 0.00169690593611449}]]",
-Creamy Chicken Gnocchi Soup,,3163.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8295760750770569}, {'label': 'POS', 'score': 0.16866369545459747}, {'label': 'NEG', 'score': 0.0017601820873096585}]]",
-Crème Brûlée,,5028.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9296020269393921}, {'label': 'POS', 'score': 0.06704773008823395}, {'label': 'NEG', 'score': 0.0033502199221402407}]]",

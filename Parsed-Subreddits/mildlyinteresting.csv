@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-Attachment for massage gun is made to look (and feel) like a finger,,31000.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.5562622547149658}, {'label': 'NEU', 'score': 0.4373042583465576}, {'label': 'POS', 'score': 0.006433513015508652}]]",
-Walmart has started selling Vibrators and butt plugs.,,1125.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9194456338882446}, {'label': 'POS', 'score': 0.046565961092710495}, {'label': 'NEG', 'score': 0.03398841992020607}]]",
-Every possible addon for this 3$ burger,,8518.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9557397365570068}, {'label': 'POS', 'score': 0.0417669303715229}, {'label': 'NEG', 'score': 0.002493287669494748}]]",
-"this off brand Pepto bismol is just called ""stomach""",,34993.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9032054543495178}, {'label': 'NEG', 'score': 0.06554216891527176}, {'label': 'POS', 'score': 0.03125247359275818}]]",
-The way snow forms in squares on top of Cloudgate,,661.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.8971460461616516}, {'label': 'NEG', 'score': 0.09425817430019379}, {'label': 'POS', 'score': 0.008595784194767475}]]",

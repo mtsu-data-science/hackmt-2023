@@ -1,6 +1,0 @@
-post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
-Best unboxing of new TV,,1208.0,0.0,,,,"[[{'label': 'POS', 'score': 0.9841821789741516}, {'label': 'NEU', 'score': 0.014937604777514935}, {'label': 'NEG', 'score': 0.0008801583899185061}]]",
-WCGW teaching your girlfriend to chokehold,,23260.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8827574849128723}, {'label': 'NEU', 'score': 0.11367940157651901}, {'label': 'POS', 'score': 0.003563113044947386}]]",
-WCGW trying to make a grand entrance,,3221.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5428259968757629}, {'label': 'POS', 'score': 0.45264849066734314}, {'label': 'NEG', 'score': 0.004525529686361551}]]",
-What could go wrong driving into a firework tent,,624.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8672930002212524}, {'label': 'NEU', 'score': 0.1279541552066803}, {'label': 'POS', 'score': 0.004752846900373697}]]",
-this was his first ever attempt to do a backflip. Filmed this in 2021,,360.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9727585911750793}, {'label': 'POS', 'score': 0.02471344731748104}, {'label': 'NEG', 'score': 0.00252801482565701}]]",
