@@ -12,6 +12,8 @@ Please message Alex Antonison on Discord or e-mail Alex Antonison (Alex.Antoniso
 
 Set up environment using python 3.10
 
+Install Python packages in [anaconda-environment.txt](./anaconda-environment.txt)
+
 Set up a `.env` file from the [.env_template](./.env_template). The `.env` file contains sensitive information and should not be uploaded to GitHub. It is in the [.gitignore](./.gitignore) file which will prevent it from being committed to source control via a Git Commit.
 
 ### Working with API
