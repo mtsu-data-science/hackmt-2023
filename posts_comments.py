@@ -70,26 +70,23 @@ def main():
 
         # if the post text contains words
         if stripped_post != "":
-            # print(stripped_post)
             # reset model
             model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", top_k=None)
 
             # run model on the text of the post
             post_output = model(stripped_post)
-            # print(post_output)
 
-        # Get the comments from each post
-        # post.comments.replace_more(limit=None)
+        # reset the variables
+        comment_counter = 0
+        list_comment_scores = []
 
         # for each post grab all the comments then grab the score in each list and average the neutral,postivive, and negative
         # loop through each comment and grab the text
-
-        # reset the comment counter to 0
-        comment_counter = 0
-
-        for comment in post.comments.list():
+        for comment in post.comments.list(limit=comment_limit):
+            print(comment)
             # reset variables
             post_comment = ""
+            comment_scores = ""
 
             # check if it is a Comment object and only get the comments until it reaches the limit
             if (isinstance(comment, praw.models.Comment) and comment_counter <= comment_limit):
@@ -99,43 +96,48 @@ def main():
 
                 # Use the sub method to remove all URLs from the comment body
                 stripped_comment = url_pattern.sub('', comment.body)
-                comment_counter += 1
-                # print(stripped_comment)
-                # print(comment_counter)
 
                 model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", top_k=None)
 
                 # run model on the text of the post
                 post_comment = model(stripped_comment[:128])
 
-                # store the scores for that comment
-                # print(post_comment)
+                list_comment_scores.append(post_comment[0])
+                
+                comment_counter += 1
 
-                negative = None
-                neutral = None
-                positive = None
-
-                for d in post_comment[0]:
-                    if d['label'] == 'NEG':
-                        negative = d['score']
-                    elif d['label'] == 'NEU':
-                        neutral = d['score']
-                    elif d['label'] == 'POS':
-                        positive = d['score']
-                # negative  = post_comment[0][0]
-                # neutral = post_comment[0][1]
-                # positive = post_comment[0][2]
-                print('negative',negative)
-                print('neutral',neutral)
-                print('positive',positive)
-                print("")
+                print(comment_counter)
+            else:
+                break
 
 
         # Append the data to the dataframe
-        df = df.append({'post_title': post_title, 'post_post': stripped_post, 'upvotes': upvotes, 'downvotes': downvotes, 'confidence_title': title_output,'confidence_text':post_output}, ignore_index=True)
+        df = df.append({'post_title': post_title, 'post_post': stripped_post, 'upvotes': upvotes, 'downvotes': downvotes, 'confidence_title': title_output,'confidence_text':post_output,'comment_scores':list_comment_scores}, ignore_index=True)
 
     # Write the dataframe to a CSV file
     # This will create a file called posts.csv in the current working directory, and store the posts(post), their upvotes and downvotes in it.
     df.to_csv('posts.csv', index=False)
 
 main()
+
+
+# get the negative, neutral, and positive scores
+
+                # negative = None
+                # neutral = None
+                # positive = None
+
+                # for d in post_comment[0]:
+                #     if d['label'] == 'NEG':
+                #         negative = d['score']
+                #     elif d['label'] == 'NEU':
+                #         neutral = d['score']
+                #     elif d['label'] == 'POS':
+                #         positive = d['score']
+                # # negative  = post_comment[0][0]
+                # # neutral = post_comment[0][1]
+                # # positive = post_comment[0][2]
+                # print('negative',negative)
+                # print('neutral',neutral)
+                # print('positive',positive)
+                # print("")

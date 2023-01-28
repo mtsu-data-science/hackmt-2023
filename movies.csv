@@ -1,0 +1,97 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+2022 films ranked according to the /r/movies official discussion polls.,,311.0,0.0,,,"Every week we post official discussions for widely released movies and attach a poll to each asking users to both rank the movies from 1-10 and whether or not they'd recommend them. Those polls get compiled into the yearly list and the all time list every so often. I find this to be a great way to rank films for the sub because these rankings were voted on mostly by people who had seen the film (hopefully) and without the context of ranking them competitively, which can cause spite downvoting. It's also worth noting that just like every movie site (IMDB, Letterboxd, etc) sorts movies by year based on different criteria, we base the year off of the calendar year that the discussion was made. So if there's some lingering movies from 2021 on here, that is why. 
+
+2022 felt like a year where movies and theater going were starting to approach the ""old normal"" of pre-COVID. Whereas the 2021 highest grossing films list seems a bit lackluster and only has one movie that crosses a billion dollars worldwide, 2022 had three billion dollar movies and a top 5 that each would have topped the #2 from last year. I mean, people must be comfortable going back to theaters when the dinosaur sized piece of shit that was Jurassic World: Dominion crosses a billion. 
+
+Anyways, here are some results and stats from the 2022 /r/movies Official Discussions Ranking Polls! These scores are determined by the average 1-10 ranking of the votes. [The list can be found here.](
+
+Rank | Film Title | Mean Score | Number of Votes| 
+---|---|----|----
+1 | [Everything, Everywhere, All At Once]( | 9.17 | 14,973
+2 | [Puss in Boots: The Last Wish]( | 9.12 | 2,110
+3 | [RRR]( | 8.99 | 1,123 | 
+4 | [Top Gun: Maverick]( | 8.96 | 1,973 
+5 | [Marcel the Shell with Shoes On]( | 8.83 | 463
+6 | [Thirteen Lives]( | 8.65 | 333 
+7 | [All Quiet on the Western Front]( | 8.56 | 2,063
+8 | [Tár]( | 8.44 | 821
+9 | [Guillermo Del Toro's Pinocchio]( | 8.4 | | 835
+10| [This Place Rules]( | 8.37 | 411
+11 | [The Whale]( | 8.31 | 1,318
+12 | [Spoiler Alert]( | 8.3 | 33
+13 | [Jeen-Yuhs: A Kanye Trilogy Part 1]( | 8.28 | 191
+14 | [Drive My Car]( | 8.23 | 437
+15 | [Weird: The Al Yankovic Story]( | 8.2 | 756
+16 | [Petite Maman]( | 8.16 | 62
+17 | [The Outfit]( | 8.15 | 353
+18 | [The Banshees of Inisherin]( | 8.14 | 2,487
+19 | [Jujutsu Kaisen 0: The Movie]( | 8.13 | 483
+20 | [The Bad Guys]( | 8.13 | 417
+
+Much like rotten tomatoes, the less seen but high quality movies or movies with highly niche audiences tend to do well with this system because most likely only people who want to see them are voting on them.
+
+If we set parameters, such as at least 500 votes to be included, the top 10 would be:
+
+1. Everything, Everywhere, All at Once
+2. Puss in Boots: The Last Wish
+3. RRR
+4. Top Gun: Maverick
+5. All Quiet on the Western Front
+6. Tár
+7. Guillermo Del Toro's Pinocchio
+8. The Whale
+9. Weird: The Al Yankovic Story
+10. The Banshees of Inisherin
+
+Here's some more stats from the rankings:
+
+- We made discussions for 181 movies last year. 
+
+- Four movies from last year made it on to the Top 20 Films of All Time (going back to 2017 when we started this process) list. Those movies, in order, are EEAAO, Puss in Boots, RRR, and Top Gun: Maverick.
+
+- While no movie topped the 20k votes that Justice League and No Way Home got last year, The Batman was the highest voted on movie with 18,125 votes. The next three most popular were all in the 14,900 range and were Everything, Everywhere, Doctor Strange 2, and Nope. Very impressive company EEAAO is keeping.
+
+- The bottom 10 are as follows:
+
+1. Mack & Rita (3)
+2. Blacklight (3.28)
+3. Night at the Museum: Kamunrah Rises Again (3.67)
+4. Cheaper by the Dozen (3.78)
+5. Me Time (3.79)
+6. Texas Chainsaw Massacre (3.83)
+7. Halloween Ends (4.3)
+8. The Munsters (4.41)
+9. Firestarter (4.43)
+10. Blonde (4.6)
+
+- The Bottom 10 is comprised mostly of movies that got less than or roughly 100 votes, with Texas Chainsaw (1,003), Halloween Ends (2,837), and Blonde (799) being the exceptions.
+
+- Morbius was the 11th lowest ranked film (who's excited for Tron 3? Anyone? Anyone?)
+
+- While in 2020 Netflix had the most movies with the most votes and 2021 it was HBO Max, this year the entire top 10 is populated by theater releases, with the conditional exception of Glass Onion which got a theater release a month before its Netflix release. 
+
+- The most controversial films, as judged by the high standard deviation, are as follows:
+
+1. Jeen-Yuhs: A Kanye Trilogy Part 2 (3.8 SD)
+2. Pinocchio (The Tom Hanks One) (3.18 SD)
+3. Jeen-Yuhs: A Kanye Trilogy Part 3 (2.99 SD)
+4. Dashcam (2.85 SD)
+5. Morbius (2.83 SD)
+
+
+
+Don't believe me? 
+
+[Link to the results](
+
+[And here are the ranked results of every poll we've ever done, dating back to 2017](","[[{'label': 'NEU', 'score': 0.9785209894180298}, {'label': 'POS', 'score': 0.018528074026107788}, {'label': 'NEG', 'score': 0.0029510343447327614}]]","[[{'label': 'NEU', 'score': 0.9425945281982422}, {'label': 'POS', 'score': 0.05567990615963936}, {'label': 'NEG', 'score': 0.0017254470149055123}]]"
+Turner Classic Movies is apparently safe at Warner Bros. Discovery,,7545.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7586833238601685}, {'label': 'POS', 'score': 0.23848997056484222}, {'label': 'NEG', 'score': 0.002826709533110261}]]",
+"‘Avatar: The Way Of Water’ Moves Up To No. 4 Biggest Movie Ever Global, Leaving ‘Force Awakens’ In Its Wake",,2731.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.6728388667106628}, {'label': 'POS', 'score': 0.32273826003074646}, {'label': 'NEG', 'score': 0.0044228313490748405}]]",
+Why is Puss in Boots the Last Wish so Good,,1117.0,0.0,,,"The film completely blew me away. And I’m left wondering what happened behind the scenes that resulted in the movie being THIS good.
+
+Were the writers given more freedom? Was it having co directors? The right producers?
+
+Whatever the process was for developing this gem - it needs to be repeated immediately.
+
+If anyone has any insights on how a movie gets to be this good, please do share.","[[{'label': 'POS', 'score': 0.880082905292511}, {'label': 'NEU', 'score': 0.1169605553150177}, {'label': 'NEG', 'score': 0.0029565179720520973}]]","[[{'label': 'NEG', 'score': 0.9681395888328552}, {'label': 'NEU', 'score': 0.025085093453526497}, {'label': 'POS', 'score': 0.006775353103876114}]]"
+Oscars: Film Academy Conducting a Review Amid Questions About Andrea Riseborough’s Best Actress Campaign for ‘To Leslie’,,3060.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.965323805809021}, {'label': 'POS', 'score': 0.032756660133600235}, {'label': 'NEG', 'score': 0.0019195658387616277}]]",

@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Police warn that Oregon torture suspect is using dating apps,,19011.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.8430301547050476}, {'label': 'NEU', 'score': 0.1526460498571396}, {'label': 'POS', 'score': 0.004323806148022413}]]",
+"Police say 3 dead, 4 hurt in latest California shooting",,4116.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9692968726158142}, {'label': 'NEU', 'score': 0.026881007477641106}, {'label': 'POS', 'score': 0.003822116646915674}]]",
+Missing radioactive capsule: Western Australia officials admit it was weeks before anyone realised it was lost,,1924.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.7276800274848938}, {'label': 'NEU', 'score': 0.26680538058280945}, {'label': 'POS', 'score': 0.005514593794941902}]]",
+"Extreme cold kills more than 150 people in Afghanistan, Taliban says",,1350.0,0.0,,,,"[[{'label': 'NEG', 'score': 0.9695545434951782}, {'label': 'NEU', 'score': 0.027094025164842606}, {'label': 'POS', 'score': 0.0033514881506562233}]]",
+Tyre Nichols: Memphis police release body cam video of deadly beating,,84242.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.718792200088501}, {'label': 'NEG', 'score': 0.2722753882408142}, {'label': 'POS', 'score': 0.008932409808039665}]]",

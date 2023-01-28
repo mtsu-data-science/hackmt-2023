@@ -1,0 +1,6 @@
+post_title,post_post,upvotes,downvotes,confidence_title, confidence_text,post_text,confidence_score_title,confidence_score_text
+Young woman gets adopted by stray cat,,27183.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.7685996890068054}, {'label': 'NEG', 'score': 0.22197166085243225}, {'label': 'POS', 'score': 0.009428603574633598}]]",
+This cat giving itself a bath,,4030.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9363376498222351}, {'label': 'POS', 'score': 0.055165018886327744}, {'label': 'NEG', 'score': 0.008497316390275955}]]",
+I'm currently in the early stages of labour and I think they all know it...,,1750.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.5374065637588501}, {'label': 'NEG', 'score': 0.4535020887851715}, {'label': 'POS', 'score': 0.009091280400753021}]]",
+This Dog Enjoying a Snack,,17480.0,0.0,,,,"[[{'label': 'POS', 'score': 0.8765657544136047}, {'label': 'NEU', 'score': 0.122527115046978}, {'label': 'NEG', 'score': 0.0009070810046978295}]]",
+This Harvest Mouse inside a flower,,6819.0,0.0,,,,"[[{'label': 'NEU', 'score': 0.9630659818649292}, {'label': 'POS', 'score': 0.03468610718846321}, {'label': 'NEG', 'score': 0.00224792817607522}]]",
