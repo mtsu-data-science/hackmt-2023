@@ -3,3 +3,6 @@ run-app-poetry:
 
 run-app:
 	streamlit run streamlit_app.py
+
+clean-code:
+	poetry run black .
