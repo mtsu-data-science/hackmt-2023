@@ -29,3 +29,9 @@ Go to the Reddit API docs for getting started with the API [https://praw.readthe
 For redirect api, use `http://localhost:8080` (sourced from [https://praw.readthedocs.io/en/latest/getting_started/authentication.html](https://praw.readthedocs.io/en/latest/getting_started/authentication.html))
 
 Good resource for getting started [https://praw.readthedocs.io/en/stable/getting_started/quick_start.html](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html).
+
+### Architecture
+
+![data-store](./img/backend-Page-1.drawio.svg)
+
+![logic-flow](./img/backend-Logic.drawio.svg)
