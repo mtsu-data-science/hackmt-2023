@@ -2252,7 +2252,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.10"
-content-hash = "9139a331eb0551242860c9cfe4571968b22e7b76c31c0b61ae9eb1920e37ae1b"
+content-hash = "431d0efe49f59d1f922b334cb5ccbb37e6ed9aeb9871361175b5e326c849adfa"
 
 [metadata.files]
 aenum = [
