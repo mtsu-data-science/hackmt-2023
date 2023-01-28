@@ -51,10 +51,10 @@ def main():
             stripped_comment = url_pattern.sub('', comment.body)
 
             # total upvotes for comment
-            upvotes = comment.ups
+            upvotes = int(comment.ups)
 
             # total downvotes for comment
-            downvotes = comment.downs
+            downvotes = int(comment.downs)
 
             # model_checkpoint2= "finiteautomata/bertweet-base-sentiment-analysis"
 
