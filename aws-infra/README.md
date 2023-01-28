@@ -1,5 +1,5 @@
 
-# MSDS AWS Infrastructure in CDK
+# HackMT AWS Infrastructure in CDK
 
 ## Overview
 
