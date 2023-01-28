@@ -28,15 +28,9 @@ For redirect api, use `http://localhost:8080` (sourced from [https://praw.readth
 
 Good resource for getting started [https://praw.readthedocs.io/en/stable/getting_started/quick_start.html](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html).
 
-### Install Packages
-Install Anaconda if you haven't already 
 
-In the anaconda navigator, click "Environments", click "Create"
+### Architecture
 
-Name it hackMT2023 and choose "Python" version 3.10.9. Click "Create"
+![data-store](./img/backend-Page-1.drawio.svg)
 
-Click the green arrow next to the hackMT2023 environment and click "open terminal"
-
-Navigate to your reposistory in the terminal and run `pip install -r anaconda-environment.txt`
-
-
+![logic-flow](./img/backend-Logic.drawio.svg)
