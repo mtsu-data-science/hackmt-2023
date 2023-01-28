@@ -19,110 +19,70 @@ reddit = praw.Reddit(
 # Create a regular expression pattern to match URLs
 url_pattern = re.compile(r'https?://[^\s]+')
 
-
 def main():
     # Get subreddit from user input
     subreddit = input("Enter the subreddit name: ")
 
-    # Get number of hottest posts to store from user input
-    num_posts = int(input("Enter the number of subreddit posts to store: ")
-    )
-
-    # Get number of hottest comments from each post to store from user input
-    num_comments = int(input("Enter the number of comments from each subreddit that you want store out of {} subreddit posts: ".format(num_posts)))
-
-    grab_posts(subreddit,num_posts,num_comments)
-
-#  this function grabs the number of posts specified by the user 
-def grab_posts(subreddit,num_posts,num_comments):
+    # Get number of hottest posts to look at from user input
+    num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
     # grab "x" number of posts in a subreddit and store them in a variable
     # the reasoning is because if you loop in reddit.subreddit(subreddit).hot(limit=num_posts), it returns a generator object, and the generator is being exhausted after the first iteration. This would result in empty submission text after the first iterration
     # It WILL SKIP posts with ONLY IMAGES
     posts = list(reddit.subreddit(subreddit).hot(limit=num_posts))
 
-    # dataframe
-    data = {'submission(post)': [], 'upvotes': [], 'downvotes': []}
+     # dataframe
+    data = {'submission_title': [],'submission_post': [], 'upvotes': [], 'downvotes': [], 'confidence_title':[],' confidence_text':[]}
     # data = {'submission(post)': [], 'upvotes': [], 'downvotes': [], 'scoring': []}
     df = pd.DataFrame(data)
 
     for submission in posts:
         # reset variables
+        submission_title = submission.title
         submission_text = submission.selftext
-        stripped_submission = ""
+        model = ""
+        title_output = ""
+        post_output = ""
         upvotes = 0
         downvotes = 0
-        scoring = ""
+
+        # Use the sub method to remove all URLs from the submission title
+        stripped_title = url_pattern.sub('', submission_title)
 
         # Use the sub method to remove all URLs from the submission text
         stripped_submission = url_pattern.sub('', submission_text)
 
+        # total upvotes for submission
+        upvotes = int(submission.ups)
+
+        # total downvotes for submission
+        downvotes = int(submission.downs)
+
+        # reset model
+        model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", return_all_scores = True)
+
+        # run model on the title
+        title_output = model(stripped_title)
+
+        # if the post text contains words
         if stripped_submission != "":
-            # print('this is the submission text: ',stripped_submission) 
+            # reset model
+            model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", return_all_scores = True)
 
-            # total upvotes for submission
-            upvotes = int(submission.ups)
-            # print(upvotes) 
+            # run model on the text of the post
+            post_output = model(stripped_submission)
 
-            # total downvotes for submission
-            downvotes = int(submission.downs)
-            # print(downvotes)
+        # for each post grab all the comments then grab the score in each list and average the neutral,postivive, and negative
+        # loop through each comment and grab the text
+        for comment in submission.comments.list(limit=10):
+            print(comment)
 
-            # # Append the data to the dataframe
-            # df = df.append({'submission(post)': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes, 'scoring':scoring}, ignore_index=True)
-            df = df.append({'submission(post)': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes}, ignore_index=True)
+       
+    # Append the data to the dataframe
+    df = df.append({'submission_title': submission_title, 'submission_post': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes, 'confidence_title': title_output,'confidence_text':post_output}, ignore_index=True)
 
-            # Write the dataframe to a CSV file
-            # This will create a file called posts.csv in the current working directory, and store the submissions(post), their upvotes and downvotes in it.
-            df.to_csv('posts.csv', index=False)
-
-            # print(num_comments,submission)
-            # grab the number of comments from the current submission post
-            get_comments(num_comments,submission)
-
-
-def get_comments(num_comments,submission):
-    # dataframe
-    data = {'comment': [], 'upvotes': [], 'downvotes': []}
-    # data = {'comment': [], 'upvotes': [], 'downvotes': [], 'scoring': []}
-    df = pd.DataFrame(data)
-
-    # loop through each comment and grab the text, upvotes, and downvotes
-    for comment in submission.comments.list():
-        print(comment)
-        # reset variables
-        stripped_comment = ""
-        upvotes = 0
-        downvotes = 0
-        counter = 1
-        # scoring = ""
-
-        # Use the sub method to remove all URLs from the comment body
-        stripped_comment = url_pattern.sub('', comment.body)
-
-        # total upvotes for comment
-        upvotes = int(comment.ups)
-
-        # total downvotes for comment
-        downvotes = int(comment.downs)
-
-        # model_checkpoint2= "finiteautomata/bertweet-base-sentiment-analysis"
-
-        # distil_bert_model = pipeline(task="sentiment-analysis", model=model_checkpoint2)
-        
-        # scoring = distil_bert_model(stripped_comment)
-
-        # # Append the data to the dataframe
-        # df = df.append({'comment': stripped_comment, 'upvotes': upvotes, 'downvotes': downvotes, 'scoring':scoring}, ignore_index=True)
-        df = df.append({'comment': stripped_comment, 'upvotes': upvotes, 'downvotes': downvotes}, ignore_index=True)
-
-        # Write the dataframe to a CSV file
-        # This will create a file called comments{counter}.csv in the current working directory, and store the comments, their upvotes and downvotes in it.
-        df.to_csv('comments{}.csv'.format(counter), index=False)
-
-        counter += 1
-        
+    # Write the dataframe to a CSV file
+    # This will create a file called posts.csv in the current working directory, and store the submissions(post), their upvotes and downvotes in it.
+    df.to_csv('posts.csv', index=False)
 
 main()
-
-

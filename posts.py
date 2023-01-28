@@ -19,7 +19,6 @@ reddit = praw.Reddit(
 # Create a regular expression pattern to match URLs
 url_pattern = re.compile(r'https?://[^\s]+')
 
-
 def main():
     # Get subreddit from user input
     subreddit = input("Enter the subreddit name: ")
@@ -27,6 +26,7 @@ def main():
     # Get number of hottest posts to look at from user input
     num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
+    # call the grab_posts function
     grab_posts(subreddit,num_posts)
 
 
@@ -38,44 +38,53 @@ def grab_posts(subreddit,num_posts):
     posts = list(reddit.subreddit(subreddit).hot(limit=num_posts))
 
      # dataframe
-    data = {'submission(post)': [], 'upvotes': [], 'downvotes': []}
+    data = {'submission_title': [],'submission_post': [], 'upvotes': [], 'downvotes': [], 'confidence_title':[],' confidence_text':[]}
     # data = {'submission(post)': [], 'upvotes': [], 'downvotes': [], 'scoring': []}
     df = pd.DataFrame(data)
 
     for submission in posts:
         # reset variables
+        submission_title = submission.title
         submission_text = submission.selftext
+        model = ""
+        title_output = ""
+        post_output = ""
         upvotes = 0
         downvotes = 0
+
+        # Use the sub method to remove all URLs from the submission title
+        stripped_title = url_pattern.sub('', submission_title)
 
         # Use the sub method to remove all URLs from the submission text
         stripped_submission = url_pattern.sub('', submission_text)
 
+        # total upvotes for submission
+        upvotes = int(submission.ups)
+
+        # total downvotes for submission
+        downvotes = int(submission.downs)
+
+        # reset model
+        model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", return_all_scores = True)
+        print('THIS IS THE MODEL',model)
+
+        # run model on the title
+        title_output = model(stripped_title)
+        print('THIS IS THE MODEL AFTER',model)
+
+        # if the post text contains words
         if stripped_submission != "":
-            print('this is the submission text: ',stripped_submission) 
+            # reset model
+            model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", return_all_scores = True)
 
-            # total upvotes for submission
-            upvotes = int(submission.ups)
-            print(upvotes)
+            # run model on the text of the post
+            post_output = model(stripped_submission)
+       
+        # Append the data to the dataframe
+        df = df.append({'submission_title': submission_title, 'submission_post': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes, 'confidence_title': title_output,'confidence_text':post_output}, ignore_index=True)
 
-            # total downvotes for submission
-            downvotes = int(submission.downs)
-            print(downvotes)
-
-            # # loop through each comment and grab the text, upvotes, and downvotes
-            # for comment in submission.comments.top(limit = 1):
-            #     # Use the sub method to remove all URLs from the comment body
-            #     stripped_comment = url_pattern.sub('', comment.body)
-            #     print(stripped_comment)
-            #     print(comment.ups)
-            #     print(comment.downs)
-
-            # # Append the data to the dataframe
-            # df = df.append({'submission(post)': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes, 'scoring':scoring}, ignore_index=True)
-            df = df.append({'submission(post)': stripped_submission, 'upvotes': upvotes, 'downvotes': downvotes}, ignore_index=True)
-
-            # Write the dataframe to a CSV file
-            # This will create a file called posts.csv in the current working directory, and store the submissions(post), their upvotes and downvotes in it.
-            df.to_csv('posts.csv', index=False)
+        # Write the dataframe to a CSV file
+        # This will create a file called posts.csv in the current working directory, and store the submissions(post), their upvotes and downvotes in it.
+        df.to_csv('posts.csv', index=False)
 
 main()
