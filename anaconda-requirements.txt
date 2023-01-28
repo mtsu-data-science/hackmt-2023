@@ -1,7 +1,0 @@
-praw==7.6.1
-pandas==1.5.2
-jupyter==1.0.0
-notebook==6.5.2
-python-dotenv==0.21.0
-ipykernel==6.20.2
-streamlit==1.17.0
