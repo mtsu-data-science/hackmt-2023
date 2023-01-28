@@ -24,7 +24,7 @@ def main():
     # Get subreddit from user input
     subreddit = input("Enter the subreddit name: ")
 
-    # Get number of top posts to look at from user input
+    # Get number of hottest posts to look at from user input
     num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
     grab_posts(subreddit,num_posts)
@@ -45,7 +45,6 @@ def grab_posts(subreddit,num_posts):
     for submission in posts:
         # reset variables
         submission_text = submission.selftext
-        stripped_submission = ""
         upvotes = 0
         downvotes = 0
 
