@@ -5,3 +5,4 @@ notebook==6.5.2
 python-dotenv==0.21.0
 ipykernel==6.20.2
 streamlit==1.17.0
+watchdog==2.2.1
