@@ -18,6 +18,12 @@ Set up a `.env` file from the [.env_template](./.env_template). The `.env` file 
 
 ### Working with API
 
+#### API Setup
+
+**Check out [setup-api.md](./setup-api.md) for getting setup with the API**
+
+#### API Notes
+
 Go to the Reddit API docs for getting started with the API [https://praw.readthedocs.io/en/stable/getting_started/quick_start.html](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html))
 
 For redirect api, use `http://localhost:8080` (sourced from [https://praw.readthedocs.io/en/latest/getting_started/authentication.html](https://praw.readthedocs.io/en/latest/getting_started/authentication.html))
