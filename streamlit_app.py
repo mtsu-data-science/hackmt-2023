@@ -43,7 +43,7 @@ if 'rselection' not in st.session_state:
 st.write(st.session_state)
 
 def get_selection():
-    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, on_change=get_selection())
+    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
     st.write("Subreddit title is ", subreddit_title)
     return subreddit_title
 
