@@ -1,4 +1,3 @@
-import streamlit as st
 import awswrangler as wr
 
 s3_bucket_name = "data-science-club-hackmt-2023"
