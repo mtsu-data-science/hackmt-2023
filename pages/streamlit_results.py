@@ -5,6 +5,8 @@ from src.data_pipeline import read_subreddit_data_from_s3
 st.title("Results")
 #st.button("Reset")
 
+df = read_subreddit_data_from_s3("test", "test-file-name")
 
-with streamlit_app.subreddit_title:
-    st.write("Subreddit title is ", streamlit_app.subreddit_title)
+subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
+with subreddit_title:
+    st.write("Subreddit title is ", subreddit_title)
