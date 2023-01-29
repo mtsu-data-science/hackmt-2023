@@ -29,16 +29,14 @@ def main():
     # Get number of hottest posts to look at from user input
     num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
-    # txt_df = pd.read_csv("first100 (2).csv")
-    data = {"subreddit": ["ChildrenFallingOver","funny","place",'att','badday','sad','happy','mad','dj','data']}
+    data = pd.read_csv("Top100.csv")
     txt_df = pd.DataFrame(data)
 
     count = 0 
     for subreddit in txt_df["subreddit"]:
-        if count == 0:
-            # call the grab_posts function
-            grab_posts(subreddit,num_posts)
-        count += 1
+        # call the grab_posts function
+        grab_posts(subreddit,num_posts)
+        print(subreddit)
     
     # call move files function that moves all csv files to a folder named Parsed-Subreddits
     move_files()
@@ -132,12 +130,16 @@ def grab_posts(subreddit,num_posts):
     filename = subreddit + '.csv'
     df.to_csv(filename, index=False)
 
+# move the files into a folder and zip it function
 def move_files():
     # path to the folder containing the csvs
     folder_path = os.getcwd() + '/'
 
     # path to the folder where the parsed csvs will be stored
     parsed_folder_path = 'Parsed-Subreddits/'
+
+    # remove the file you are were reading from
+    os.remove("Top100.csv")
 
     # check if the parsed folder already exists, if not create it
     if not os.path.exists(parsed_folder_path):
@@ -152,5 +154,10 @@ def move_files():
             print(f'{filename} moved to {parsed_folder_path}')
         else:
             print(f'{filename} is not a csv')
+
+    
+
+    # zip the file for upload script
+    shutil.make_archive('Parsed-Subreddits', 'zip', 'Parsed-Subreddits')
 
 main()
