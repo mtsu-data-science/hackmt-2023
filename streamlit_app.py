@@ -43,7 +43,7 @@ if 'key' not in st.session_state:
 st.write(st.session_state.title)
 
 def get_selection():
-    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, key="title", on_change=get_selection())
+    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, on_change=get_selection())
     st.write("Subreddit title is ", subreddit_title)
     return subreddit_title
 
