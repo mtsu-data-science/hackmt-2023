@@ -7,7 +7,7 @@ from src.data_pipeline import read_subreddit_data_from_s3
 
 st.title("Reddit Sentiment Analysis")
 
-@st.experimental_memo
+#@st.experimental_memo
 def nav_page(page_name, timeout_secs=3):
     nav_script = """
         <script type="text/javascript">
