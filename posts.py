@@ -30,14 +30,14 @@ def main():
     num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
     # txt_df = pd.read_csv("first100 (2).csv")
-    data = {"subreddit": ["depression","funny","place",'att','badday','sad','happy','mad','dj','data']}
+    data = {"subreddit": ["ChildrenFallingOver","funny","place",'att','badday','sad','happy','mad','dj','data']}
     txt_df = pd.DataFrame(data)
-
 
     count = 0 
     for subreddit in txt_df["subreddit"]:
-        # call the grab_posts function
-        grab_posts(subreddit,num_posts)
+        if count == 0:
+            # call the grab_posts function
+            grab_posts(subreddit,num_posts)
         count += 1
     
     # call move files function that moves all csv files to a folder named Parsed-Subreddits
@@ -54,7 +54,7 @@ def grab_posts(subreddit,num_posts):
     posts = list(reddit.subreddit(subreddit).top(limit=num_posts,time_filter="month"))
 
     # dataframe
-    data = {'post_title': [],'post_post': [], 'upvotes': [],'downvotes': [], 'confidence_title':[],' confidence_text':[]}
+    data = {}
     df = pd.DataFrame(data)
 
     # loop through each post
