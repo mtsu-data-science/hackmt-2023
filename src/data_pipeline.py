@@ -22,7 +22,7 @@ def write_subreddit_data_to_s3(df, subreddit_name, file_name):
 
     wr.s3.to_parquet(
         df=df,
-        path=f"s3://{s3_bucket_name}/subreddit_data/{subreddit_name}/{file_name}.parquet",
+        path=f"s3://{s3_bucket_name}/subreddit_data/{subreddit_name.lower()}/{file_name}.parquet",
         dataset=False,
     )
 

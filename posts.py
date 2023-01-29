@@ -32,6 +32,7 @@ def main():
     data = pd.read_csv("Top100.csv")
     txt_df = pd.DataFrame(data)
 
+    count = 0 
     for subreddit in txt_df["subreddit"]:
         # call the grab_posts function
         grab_posts(subreddit,num_posts)
