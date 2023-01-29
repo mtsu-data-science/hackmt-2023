@@ -7,6 +7,22 @@ from src.data_pipeline import read_subreddit_data_from_s3
 
 st.title("Reddit Sentiment Analysis")
 
+st.sidebar.success("Results")
+st.markdown("""---""")
+df = read_subreddit_data_from_s3("test", "test-file-name")
+
+if 'rselection' not in st.session_state:
+    st.session_state.rselection = 'title'
+
+st.write(st.session_state.rselection)
+
+def get_selection():
+    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
+    st.write("Subreddit title is ", subreddit_title)
+    return subreddit_title
+
+get_selection()
+
 #@st.experimental_memo
 def nav_page(page_name, timeout_secs=3):
     nav_script = """
@@ -33,22 +49,28 @@ def nav_page(page_name, timeout_secs=3):
     """ % (page_name, timeout_secs)
     html(nav_script)
 
-st.sidebar.success("Results")
-st.markdown("""---""")
-df = read_subreddit_data_from_s3("test", "test-file-name")
+if st.button("streamlit_results"):
+    nav_page("streamlit_results")
+if st.button("about"):
+    nav_page("about")
 
-if 'rselection' not in st.session_state:
-    st.session_state.rselection = 'title'
+#st.sidebar.success("Results")
+#st.markdown("""---""")
+#df = read_subreddit_data_from_s3("test", "test-file-name")
 
-st.write(st.session_state.rselection)
+#if 'rselection' not in st.session_state:
+#    st.session_state.rselection = 'title'
 
-def get_selection():
-    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
-    st.write("Subreddit title is ", subreddit_title)
-    return subreddit_title
+#st.write(st.session_state.rselection)
 
-get_selection()
+#def get_selection():
+#    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
+#    st.write("Subreddit title is ", subreddit_title)
+#    return subreddit_title
 
+#get_selection()
+
+#html("pages\streamlit_results.py")
 #subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
 #with subreddit_title:
 #   st.write("Subreddit title is ", subreddit_title)
