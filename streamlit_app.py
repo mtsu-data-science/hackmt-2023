@@ -7,3 +7,5 @@ st.markdown("""---""")
 df = read_subreddit_data_from_s3("test", "test-file-name")
 
 st.dataframe(df)
+
+st.button("Enter")
