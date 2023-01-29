@@ -51,8 +51,18 @@ def nav_page(page_name, timeout_secs=3):
 
 if st.button("streamlit_results"):
     nav_page("streamlit_results")
+    st.write("entered results page")
+
+
+
 if st.button("about"):
     nav_page("about")
+
+#Delete session state
+#for rselection in st.session_state.rselection:
+    #del st.session_state(rselection)
+
+
 
 #st.sidebar.success("Results")
 #st.markdown("""---""")
