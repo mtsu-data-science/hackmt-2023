@@ -40,7 +40,7 @@ df = read_subreddit_data_from_s3("test", "test-file-name")
 if 'key' not in st.session_state:
     st.session_state.key = 'title'
 
-st.write(st.session_state.title)
+st.write(st.session_state)
 
 def get_selection():
     subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, on_change=get_selection())
