@@ -6,3 +6,8 @@ st.title("Reddit Sentiment Analysis")
 df = read_subreddit_data_from_s3("test", "test-file-name")
 
 st.dataframe(df)
+
+subreddit_title = st.text_input('Subreddit title', 'Enter a subreddit title!')
+st.write("Subreddit title is ", subreddit_title)
+
+st.write(df.loc[df['Submission'] == subreddit_title])
