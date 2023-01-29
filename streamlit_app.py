@@ -11,4 +11,4 @@ st.dataframe(df)
 
 results = {"streamlit_results": streamlit_results}
 
-st.button("Enter", onclick=results)
+st.button("Enter", on_click=results)
