@@ -24,6 +24,7 @@ def get_selection():
 
 get_selection()
 
+st.markdown("""---""")
 
 #@st.experimental_memo
 def nav_page(page_name, timeout_secs=3):
@@ -53,7 +54,7 @@ def nav_page(page_name, timeout_secs=3):
 
 if st.button("streamlit_results"):
     nav_page("streamlit_results")
-    st.write.nav_page("entered results page")
+    #st.write.nav_page("entered results page")
     #st.write("entered results page")
 
 
