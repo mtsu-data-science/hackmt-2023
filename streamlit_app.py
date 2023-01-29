@@ -37,8 +37,8 @@ st.sidebar.success("Results")
 st.markdown("""---""")
 df = read_subreddit_data_from_s3("test", "test-file-name")
 
-if 'key' not in st.session_state:
-    st.session_state.key = 'title'
+if 'rselection' not in st.session_state:
+    st.session_state.rselection = 'title'
 
 st.write(st.session_state)
 
