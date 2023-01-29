@@ -7,6 +7,8 @@ from transformers import pipeline
 import pandas as pd
 import emoji
 import warnings
+import csv
+import shutil
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -24,20 +26,22 @@ reddit = praw.Reddit(
 url_pattern = re.compile(r'https?://[^\s]+')
 
 def main():
-    # Get subreddit from user input
-    # subreddit = input("Enter the subreddit name: ")
-
     # Get number of hottest posts to look at from user input
     num_posts = int(input("Enter the number of subreddit posts to look at: "))
 
-    txt_df = pd.read_csv("first100 (2).csv")
+    # txt_df = pd.read_csv("first100 (2).csv")
+    data = {"subreddit": ["ChildrenFallingOver","funny","place",'att','badday','sad','happy','mad','dj','data']}
+    txt_df = pd.DataFrame(data)
 
+    count = 0 
     for subreddit in txt_df["subreddit"]:
-        print(subreddit)
-        # call the grab_posts function
-        grab_posts(subreddit,num_posts)
-
-
+        if count == 0:
+            # call the grab_posts function
+            grab_posts(subreddit,num_posts)
+        count += 1
+    
+    # call move files function that moves all csv files to a folder named Parsed-Subreddits
+    move_files()
 
 # this function grabs a number of posts from a subreddit
 def grab_posts(subreddit,num_posts):
@@ -45,12 +49,12 @@ def grab_posts(subreddit,num_posts):
     counter = 0
 
     # grab "x" number of posts in a subreddit and store them in a variable
-    # the reasoning is because if you loop in reddit.subreddit(subreddit).hot(limit=num_posts), it returns a generator object, and the generator is being exhausted after the first iteration. This would result in empty post text after the first iterration
+    # the reasoning is because if you loop in reddit.subreddit(subreddit).top(limit=num_posts,time_filter="month"), it returns a generator object, and the generator is being exhausted after the first iteration. This would result in empty post text after the first iterration
     # It WILL SKIP posts with ONLY IMAGES
-    posts = list(reddit.subreddit(subreddit).hot(limit=num_posts))
+    posts = list(reddit.subreddit(subreddit).top(limit=num_posts,time_filter="month"))
 
     # dataframe
-    data = {'post_title': [],'post_post': [], 'upvotes': [], 'downvotes': [], 'confidence_title':[],' confidence_text':[]}
+    data = {}
     df = pd.DataFrame(data)
 
     # loop through each post
@@ -59,8 +63,15 @@ def grab_posts(subreddit,num_posts):
         post_title = post.title
         post_text = post.selftext
         model = ""
-        title_scores = ""
-        post_scores = ""
+        post_title_label = ""
+        post_title_neutral_score = ""
+        post_title_negative_score = ""
+        post_title_positive_score = ""
+        post_text_label = ""
+        post_text_neutral_score = ""
+        post_text_negative_score = ""
+        post_text_positive_score = ""
+
         upvotes = 0
         downvotes = 0
 
@@ -80,20 +91,36 @@ def grab_posts(subreddit,num_posts):
         model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", top_k=None)
         # print('THIS IS THE MODEL',model)
 
-        # run model on the title
-        title_scores = model(stripped_title)
-        # print('THIS IS THE MODEL AFTER',model)
+        # run model on the title and grab the the scores for neg,pos, and neu 
+        # after the for loop the scores for the titlename will be finalized
+        for i in range(3):
+            post_title_label = model(stripped_title[:128])[0][i].get('label')
+            if post_title_label == 'NEG':
+                post_title_negative_score = model(stripped_title[:128])[0][i].get('score')
+            elif post_title_label == 'POS':
+                post_title_positive_score = model(stripped_title[:128])[0][i].get('score')
+            else:
+                post_title_neutral_score = model(stripped_title[:128])[0][i].get('score')
 
         # if the post text contains words
         if stripped_post != "":
             # reset model
             model = pipeline("sentiment-analysis", model="finiteautomata/bertweet-base-sentiment-analysis", top_k=None)
 
-            # run model on the text of the post
-            post_scores = model(stripped_post[:128])
+            # run model on the title and grab the the scores for neg,pos, and neu 
+            # after the for loop the scores for the text from the post will be finalized
+            for i in range(3):
+                post_text_label = model(stripped_post[:128])[0][i].get('label')
+                if post_text_label == 'NEG':
+                    post_text_negative_score = model(stripped_post[:128])[0][i].get('score')
+                elif post_text_label == 'POS':
+                    post_text_positive_score = model(stripped_post[:128])[0][i].get('score')
+                else:
+                    post_text_neutral_score = model(stripped_post[:128])[0][i].get('score')
+
        
         # Append the data to the dataframe
-        df = df.append({'post_title': post_title, 'post_text': stripped_post, 'upvotes': upvotes, 'downvotes': downvotes, 'confidence_score_title': title_scores,'confidence_score_text':post_scores}, ignore_index=True)
+        df = df.append({'post_title': post_title, 'post_text': stripped_post, 'upvotes': upvotes, 'downvotes': downvotes,'post_title_neutral':post_title_neutral_score,'post_title_positive':post_title_positive_score,'post_title_negative':post_title_negative_score,'post_text_neutral':post_text_neutral_score,'post_text_positive':post_text_positive_score,'post_text_negative':post_text_negative_score}, ignore_index=True)
 
         # counter increment
         counter += 1
@@ -104,5 +131,26 @@ def grab_posts(subreddit,num_posts):
     # This will create a file called posts.csv in the current working directory, and store the posts(post), their upvotes and downvotes in it.
     filename = subreddit + '.csv'
     df.to_csv(filename, index=False)
+
+def move_files():
+    # path to the folder containing the csvs
+    folder_path = os.getcwd() + '/'
+
+    # path to the folder where the parsed csvs will be stored
+    parsed_folder_path = 'Parsed-Subreddits/'
+
+    # check if the parsed folder already exists, if not create it
+    if not os.path.exists(parsed_folder_path):
+        os.makedirs(parsed_folder_path)
+
+    # loop through all the files in the folder
+    for filename in os.listdir(folder_path):
+        # check if the file is a csv
+        if filename.endswith(".csv"):
+            # move the csv file to the parsed folder
+            shutil.move(folder_path + filename, parsed_folder_path + filename)
+            print(f'{filename} moved to {parsed_folder_path}')
+        else:
+            print(f'{filename} is not a csv')
 
 main()
