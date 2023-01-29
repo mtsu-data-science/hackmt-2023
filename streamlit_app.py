@@ -14,13 +14,13 @@ df = read_subreddit_data_from_s3("test", "test-file-name")
 if 'rselection' not in st.session_state:
     st.session_state.rselection = "Enter a subreddit title to analyze:"
 
-st.write(st.session_state.rselection)
+#st.write(st.session_state.rselection)
 
 def get_selection():
     subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, key="rselection")
     st.write("Subreddit title is ", subreddit_title)
     st.write(st.session_state.rselection)
-    return subreddit_title
+    return 
 
 get_selection()
 
