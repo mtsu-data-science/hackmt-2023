@@ -33,7 +33,6 @@ def nav_page(page_name, timeout_secs=3):
     """ % (page_name, timeout_secs)
     html(nav_script)
 
-#st.button("About Us")
 st.sidebar.success("Results")
 st.markdown("""---""")
 df = read_subreddit_data_from_s3("test", "test-file-name")
