@@ -37,7 +37,8 @@ st.sidebar.success("Results")
 st.markdown("""---""")
 df = read_subreddit_data_from_s3("test", "test-file-name")
 
-subreddit_title = st.selectbox("Enter a subreddit title to analyze:", st.dataframe(df))
+subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
+
 with subreddit_title:
     st.write("Subreddit title is ", subreddit_title)
 
