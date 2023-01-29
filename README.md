@@ -12,7 +12,7 @@ Please message Alex Antonison on Discord or e-mail Alex Antonison (Alex.Antoniso
 
 Set up environment using python 3.10
 
-Install Python packages in [requirements.txt](./requirements.txt)
+Install Python packages in [anaconda-environment.txt](./anaconda-environment.txt)
 
 Set up a `.env` file from the [.env_template](./.env_template). The `.env` file contains sensitive information and should not be uploaded to GitHub. It is in the [.gitignore](./.gitignore) file which will prevent it from being committed to source control via a Git Commit.
 
@@ -29,6 +29,7 @@ Go to the Reddit API docs for getting started with the API [https://praw.readthe
 For redirect api, use `http://localhost:8080` (sourced from [https://praw.readthedocs.io/en/latest/getting_started/authentication.html](https://praw.readthedocs.io/en/latest/getting_started/authentication.html))
 
 Good resource for getting started [https://praw.readthedocs.io/en/stable/getting_started/quick_start.html](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html).
+
 
 ### Architecture
 
