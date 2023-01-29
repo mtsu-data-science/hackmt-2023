@@ -17,11 +17,12 @@ if 'rselection' not in st.session_state:
 st.write(st.session_state.rselection)
 
 def get_selection():
-    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
+    subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df, key="rselection")
     st.write("Subreddit title is ", subreddit_title)
     return subreddit_title
 
 get_selection()
+st.write(st.session_state.rselection)
 
 #@st.experimental_memo
 def nav_page(page_name, timeout_secs=3):
