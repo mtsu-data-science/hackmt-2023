@@ -40,10 +40,10 @@ df = read_subreddit_data_from_s3("test", "test-file-name")
 
 st.dataframe(df)
 
-if st.button("< Prev"):
-    nav_page("about us")
-if st.button("Next >"):
-    nav_page("results")
+#if st.button("< Prev"):
+ #   nav_page("about us")
+#if st.button("Next >"):
+#    nav_page("results")
 
 #results = {"streamlit_results": streamlit_results}
 
