@@ -37,7 +37,7 @@ st.sidebar.success("Results")
 st.markdown("""---""")
 df = read_subreddit_data_from_s3("test", "test-file-name")
 
-st.dataframe(df)
+#st.dataframe(df)
 
 #if st.button("< Prev"):
  #   nav_page("about us")
