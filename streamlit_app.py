@@ -47,7 +47,7 @@ def get_selection():
     st.write("Subreddit title is ", subreddit_title)
     return subreddit_title
 
-st.session_state.title
+st.session_state
 get_selection()
 
 #subreddit_title = st.selectbox("Enter a subreddit title to analyze:", df)
