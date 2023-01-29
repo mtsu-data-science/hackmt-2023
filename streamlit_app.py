@@ -22,7 +22,7 @@ def get_selection():
     st.write(st.session_state.rselection)
     return 
 
-get_selection()
+#get_selection()
 
 
 #@st.experimental_memo
